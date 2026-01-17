@@ -10,6 +10,7 @@
   const scheduleBody = document.getElementById('schedule-body');
   const weekRange = document.getElementById('week-range');
   const whatsOnNow = document.getElementById('whats-on-now');
+  const comingUp = document.getElementById('coming-up');
   const lastUpdated = document.getElementById('last-updated');
   const showSearch = document.getElementById('show-search');
   const themeToggle = document.getElementById('theme-toggle');
@@ -250,12 +251,13 @@
   }
 
   /**
-   * Update the "What's on now" display
+   * Update the "What's on now" display and upcoming shows
    * Uses Eastern Time (ET) since that's the schedule's timezone
    */
   function updateWhatsOnNow() {
     if (!scheduleData?.schedule) {
       whatsOnNow.textContent = '';
+      comingUp.innerHTML = '';
       return;
     }
 
@@ -266,26 +268,48 @@
     const daySchedule = scheduleData.schedule.find(d => d.day === currentDay);
     if (!daySchedule?.slots || daySchedule.slots.length === 0) {
       whatsOnNow.textContent = '';
+      comingUp.innerHTML = '';
       return;
     }
 
-    // Find the current show (the one that started most recently before now)
+    // Find the current show and upcoming shows
     let currentShow = null;
     let currentShowTime = '';
+    let currentShowIndex = -1;
 
-    for (const slot of daySchedule.slots) {
+    for (let i = 0; i < daySchedule.slots.length; i++) {
+      const slot = daySchedule.slots[i];
       const slotMinutes = timeToMinutes(slot.time);
       if (slotMinutes <= currentMinutes) {
         currentShow = slot.show;
         currentShowTime = slot.time;
+        currentShowIndex = i;
       }
     }
 
     if (currentShow) {
       whatsOnNow.textContent = `[NOW PLAYING] ${currentShow} (started at ${currentShowTime} ET)`;
       highlightCurrentSlot(currentDay, currentShowTime);
+
+      // Show next 3 upcoming shows
+      const upcomingShows = [];
+      for (let i = currentShowIndex + 1; i < daySchedule.slots.length && upcomingShows.length < 3; i++) {
+        upcomingShows.push(daySchedule.slots[i]);
+      }
+
+      if (upcomingShows.length > 0) {
+        let html = '<p class="coming-up-label">Coming Up:</p><ul class="coming-up-list">';
+        upcomingShows.forEach(slot => {
+          html += `<li><span class="coming-up-time">${escapeHtml(slot.time)}</span> ${escapeHtml(slot.show)}</li>`;
+        });
+        html += '</ul>';
+        comingUp.innerHTML = html;
+      } else {
+        comingUp.innerHTML = '';
+      }
     } else {
       whatsOnNow.textContent = '';
+      comingUp.innerHTML = '';
     }
   }
 
