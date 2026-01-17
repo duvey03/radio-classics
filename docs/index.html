@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Weekly schedule for SiriusXM Radio Classics Channel 148 - Old Time Radio shows">
+  <title>Radio Classics Schedule - SiriusXM Channel 148</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <h1>Radio Classics Weekly Schedule</h1>
+    <p class="subtitle">SiriusXM Channel 148 - Old Time Radio</p>
+
+    <div class="controls" role="group" aria-label="Schedule controls">
+      <div class="search-container">
+        <label for="show-search" class="visually-hidden">Search shows</label>
+        <input
+          type="search"
+          id="show-search"
+          placeholder="Search shows..."
+          aria-describedby="search-help"
+        >
+        <span id="search-help" class="visually-hidden">
+          Type a show name to filter the schedule
+        </span>
+      </div>
+
+      <button
+        id="theme-toggle"
+        type="button"
+        aria-pressed="false"
+        aria-label="Toggle dark mode"
+      >
+        Dark Mode
+      </button>
+
+      <button
+        id="today-btn"
+        type="button"
+        aria-label="Jump to today"
+      >
+        Today
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <div class="schedule-info">
+      <p id="week-range" aria-live="polite">Loading schedule...</p>
+      <p id="whats-on-now" class="now-playing" aria-live="polite"></p>
+    </div>
+
+    <div class="table-container" role="region" aria-label="Weekly schedule" tabindex="0">
+      <table id="schedule-table" aria-describedby="week-range">
+        <caption class="visually-hidden">Radio Classics weekly broadcast schedule</caption>
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Sunday</th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+            <th scope="col">Friday</th>
+            <th scope="col">Saturday</th>
+          </tr>
+        </thead>
+        <tbody id="schedule-body">
+          <tr>
+            <td colspan="8" class="loading-message">Loading schedule...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="no-results" class="no-results" hidden>
+      <p>No shows found matching your search.</p>
+      <button type="button" id="clear-search">Clear Search</button>
+    </div>
+
+    <div id="error-message" class="error-message" role="alert" hidden>
+      <p id="error-text"></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>Last updated: <time id="last-updated" datetime=""></time></p>
+    <p>Schedule source: <a href="https://gregbellmedia.com/" target="_blank" rel="noopener">gregbellmedia.com</a></p>
+    <p class="footer-note">Schedule updates automatically every Sunday</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
