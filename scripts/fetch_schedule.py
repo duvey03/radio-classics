@@ -45,13 +45,66 @@ def fetch_page(url: str) -> Optional[str]:
         return None
 
 
-def find_excel_url(html: str) -> Optional[str]:
-    """Extract the Excel schedule URL from the page HTML."""
-    soup = BeautifulSoup(html, 'html.parser')
+def parse_date_from_filename(filename: str) -> Optional[tuple[datetime, datetime]]:
+    """Parse date range from Excel filename.
 
-    # Look for links containing Excel file patterns
-    # Pattern: RC_[date-range]-Excel-Version.xlsx
+    Handles formats like:
+    - RC_Jan12th2026-Jan18th2026-Excel-Version.xlsx
+    - RC_Jan5th2026-Jan11th2026-Excel-Version.xlsx
+
+    Returns: (start_date, end_date) as datetime objects, or None if parsing fails.
+    """
+    MONTHS = {
+        'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6,
+        'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12
+    }
+
+    # Pattern: MonthDay(st/nd/rd/th)Year-MonthDay(st/nd/rd/th)Year
+    pattern = re.compile(
+        r'([A-Za-z]{3})(\d{1,2})(?:st|nd|rd|th)?(\d{4})-'
+        r'([A-Za-z]{3})(\d{1,2})(?:st|nd|rd|th)?(\d{4})',
+        re.IGNORECASE
+    )
+
+    match = pattern.search(filename)
+    if not match:
+        return None
+
+    try:
+        start_month = MONTHS.get(match.group(1).lower())
+        start_day = int(match.group(2))
+        start_year = int(match.group(3))
+
+        end_month = MONTHS.get(match.group(4).lower())
+        end_day = int(match.group(5))
+        end_year = int(match.group(6))
+
+        if not start_month or not end_month:
+            return None
+
+        start_date = datetime(start_year, start_month, start_day)
+        end_date = datetime(end_year, end_month, end_day)
+
+        return start_date, end_date
+    except (ValueError, TypeError):
+        return None
+
+
+def find_excel_url(html: str) -> Optional[str]:
+    """Extract the Excel schedule URL for the current week from the page HTML.
+
+    Finds all Excel files, parses their date ranges, and selects the one
+    that contains today's date. Falls back to the most recent if current
+    week is not found.
+    """
+    soup = BeautifulSoup(html, 'html.parser')
+    today = datetime.now()
+
+    # Pattern for Radio Classics Excel files
     excel_pattern = re.compile(r'RC_.*Excel.*\.xlsx', re.IGNORECASE)
+
+    # Collect all Excel URLs with their date ranges
+    excel_files = []
 
     for link in soup.find_all('a', href=True):
         href = link['href']
@@ -59,21 +112,62 @@ def find_excel_url(html: str) -> Optional[str]:
             # Handle protocol-relative URLs
             if href.startswith('//'):
                 href = 'https:' + href
-            logger.info(f"Found Excel URL: {href}")
-            return href
 
-    # Also check for .xlsx links in general
-    for link in soup.find_all('a', href=True):
-        href = link['href']
-        if href.endswith('.xlsx'):
-            # Handle protocol-relative URLs
-            if href.startswith('//'):
-                href = 'https:' + href
-            logger.info(f"Found Excel URL (fallback): {href}")
-            return href
+            # Try to parse dates from filename
+            date_range = parse_date_from_filename(href)
+            if date_range:
+                start_date, end_date = date_range
+                excel_files.append({
+                    'url': href,
+                    'start': start_date,
+                    'end': end_date
+                })
+                logger.debug(f"Found Excel: {href} ({start_date.date()} to {end_date.date()})")
+            else:
+                # Include files without parseable dates as fallback
+                excel_files.append({
+                    'url': href,
+                    'start': None,
+                    'end': None
+                })
+                logger.debug(f"Found Excel (no date): {href}")
 
-    logger.error("No Excel file URL found on the page")
-    return None
+    if not excel_files:
+        # Fallback: look for any .xlsx files
+        for link in soup.find_all('a', href=True):
+            href = link['href']
+            if href.endswith('.xlsx'):
+                if href.startswith('//'):
+                    href = 'https:' + href
+                logger.info(f"Found Excel URL (fallback): {href}")
+                return href
+
+        logger.error("No Excel file URL found on the page")
+        return None
+
+    logger.info(f"Found {len(excel_files)} Excel files on the page")
+
+    # First pass: find file containing today's date
+    for excel in excel_files:
+        if excel['start'] and excel['end']:
+            if excel['start'].date() <= today.date() <= excel['end'].date():
+                logger.info(f"Selected Excel for current week: {excel['url']}")
+                logger.info(f"  Date range: {excel['start'].date()} to {excel['end'].date()}")
+                return excel['url']
+
+    # Second pass: find the most recent file (by end date)
+    dated_files = [f for f in excel_files if f['start'] is not None]
+    if dated_files:
+        # Sort by end date descending
+        dated_files.sort(key=lambda x: x['end'], reverse=True)
+        best = dated_files[0]
+        logger.warning(f"Current week not found, using most recent: {best['url']}")
+        logger.warning(f"  Date range: {best['start'].date()} to {best['end'].date()}")
+        return best['url']
+
+    # Last resort: return first Excel file found
+    logger.warning(f"No dated files found, using first Excel: {excel_files[0]['url']}")
+    return excel_files[0]['url']
 
 
 def download_excel(url: str) -> Optional[BytesIO]:
