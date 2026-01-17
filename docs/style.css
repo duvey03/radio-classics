@@ -403,6 +403,20 @@ main {
   border-bottom: 2px solid var(--border-accent);
 }
 
+/* Header date display */
+.header-date {
+  display: block;
+  font-family: var(--font-body);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--accent-primary);
+  margin-top: var(--space-1);
+}
+
+[data-theme="dark"] .header-date {
+  color: var(--accent-gold);
+}
+
 #schedule-table td {
   font-size: var(--font-size-base);
   color: var(--text-secondary);

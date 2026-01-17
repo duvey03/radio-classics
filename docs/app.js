@@ -100,6 +100,7 @@
 
       renderSchedule();
       updateWeekRange();
+      updateTableHeaders();
       updateLastUpdated();
       updateWhatsOnNow();
       highlightToday();
@@ -220,6 +221,45 @@
     } else {
       weekRange.textContent = 'Current Week Schedule';
     }
+  }
+
+  /**
+   * Update table headers with dates
+   * The schedule week runs Monday-Sunday, with week_start being Monday
+   */
+  function updateTableHeaders() {
+    if (!scheduleData?.week_start) return;
+
+    const weekStart = new Date(scheduleData.week_start + 'T00:00:00');
+
+    // Days from Monday (week_start) to each day
+    const dayOffsets = {
+      'Monday': 0,
+      'Tuesday': 1,
+      'Wednesday': 2,
+      'Thursday': 3,
+      'Friday': 4,
+      'Saturday': 5,
+      'Sunday': 6
+    };
+
+    const headers = document.querySelectorAll('#schedule-header th[data-day]');
+    headers.forEach(th => {
+      const dayName = th.dataset.day;
+      const offset = dayOffsets[dayName];
+
+      if (offset !== undefined) {
+        const dayDate = new Date(weekStart);
+        dayDate.setDate(weekStart.getDate() + offset);
+
+        const dateStr = dayDate.toLocaleDateString('en-US', {
+          month: 'short',
+          day: 'numeric'
+        });
+
+        th.innerHTML = `${dayName}<span class="header-date">${dateStr}</span>`;
+      }
+    });
   }
 
   /**
