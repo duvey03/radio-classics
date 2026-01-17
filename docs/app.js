@@ -26,6 +26,35 @@
   // Constants
   const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const SCHEDULE_URL = 'schedule.json';
+  const EASTERN_TIMEZONE = 'America/New_York';
+
+  /**
+   * Get current time in Eastern timezone
+   * @returns {{day: string, hours: number, minutes: number, totalMinutes: number}}
+   */
+  function getEasternTime() {
+    const now = new Date();
+    // Format date parts in Eastern timezone
+    const formatter = new Intl.DateTimeFormat('en-US', {
+      timeZone: EASTERN_TIMEZONE,
+      weekday: 'long',
+      hour: 'numeric',
+      minute: 'numeric',
+      hour12: false
+    });
+
+    const parts = formatter.formatToParts(now);
+    const day = parts.find(p => p.type === 'weekday')?.value || '';
+    const hours = parseInt(parts.find(p => p.type === 'hour')?.value || '0', 10);
+    const minutes = parseInt(parts.find(p => p.type === 'minute')?.value || '0', 10);
+
+    return {
+      day: day,
+      hours: hours,
+      minutes: minutes,
+      totalMinutes: hours * 60 + minutes
+    };
+  }
 
   /**
    * Initialize the application
@@ -222,6 +251,7 @@
 
   /**
    * Update the "What's on now" display
+   * Uses Eastern Time (ET) since that's the schedule's timezone
    */
   function updateWhatsOnNow() {
     if (!scheduleData?.schedule) {
@@ -229,9 +259,9 @@
       return;
     }
 
-    const now = new Date();
-    const currentDay = DAYS[now.getDay()];
-    const currentMinutes = now.getHours() * 60 + now.getMinutes();
+    const et = getEasternTime();
+    const currentDay = et.day;
+    const currentMinutes = et.totalMinutes;
 
     const daySchedule = scheduleData.schedule.find(d => d.day === currentDay);
     if (!daySchedule?.slots || daySchedule.slots.length === 0) {
@@ -252,7 +282,7 @@
     }
 
     if (currentShow) {
-      whatsOnNow.textContent = `[NOW PLAYING] ${currentShow} (started at ${currentShowTime})`;
+      whatsOnNow.textContent = `[NOW PLAYING] ${currentShow} (started at ${currentShowTime} ET)`;
       highlightCurrentSlot(currentDay, currentShowTime);
     } else {
       whatsOnNow.textContent = '';
@@ -261,9 +291,11 @@
 
   /**
    * Highlight today's column
+   * Uses Eastern Time (ET) since that's the schedule's timezone
    */
   function highlightToday() {
-    const today = DAYS[new Date().getDay()];
+    const et = getEasternTime();
+    const today = et.day;
 
     // Highlight header
     const headers = document.querySelectorAll('#schedule-table th');
