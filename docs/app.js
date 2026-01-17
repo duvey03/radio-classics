@@ -1,6 +1,6 @@
 /**
  * Radio Classics Schedule - Application JavaScript
- * Handles schedule rendering, search, theme toggle, and current time highlighting
+ * Handles schedule rendering, search, and current time highlighting
  */
 
 (function() {
@@ -13,8 +13,6 @@
   const comingUp = document.getElementById('coming-up');
   const lastUpdated = document.getElementById('last-updated');
   const showSearch = document.getElementById('show-search');
-  const themeToggle = document.getElementById('theme-toggle');
-  const todayBtn = document.getElementById('today-btn');
   const noResults = document.getElementById('no-results');
   const clearSearchBtn = document.getElementById('clear-search');
   const errorMessage = document.getElementById('error-message');
@@ -26,16 +24,14 @@
 
   // Constants
   const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-  const SCHEDULE_URL = 'schedule.json?v=' + Date.now();  // Cache-busting
+  const SCHEDULE_URL = 'schedule.json?v=' + Date.now();
   const EASTERN_TIMEZONE = 'America/New_York';
 
   /**
    * Get current time in Eastern timezone
-   * @returns {{day: string, hours: number, minutes: number, totalMinutes: number}}
    */
   function getEasternTime() {
     const now = new Date();
-    // Format date parts in Eastern timezone
     const formatter = new Intl.DateTimeFormat('en-US', {
       timeZone: EASTERN_TIMEZONE,
       weekday: 'long',
@@ -61,7 +57,9 @@
    * Initialize the application
    */
   function init() {
-    loadThemePreference();
+    // Always use dark theme
+    document.documentElement.setAttribute('data-theme', 'dark');
+
     setupEventListeners();
     loadSchedule();
 
@@ -73,8 +71,6 @@
    * Set up event listeners
    */
   function setupEventListeners() {
-    themeToggle.addEventListener('click', toggleTheme);
-    todayBtn.addEventListener('click', scrollToToday);
     showSearch.addEventListener('input', debounce(handleSearch, 300));
     clearSearchBtn.addEventListener('click', clearSearch);
 
@@ -122,7 +118,6 @@
       return;
     }
 
-    // Collect all unique time slots across all days
     const timeSlots = collectTimeSlots();
 
     if (timeSlots.length === 0) {
@@ -130,7 +125,6 @@
       return;
     }
 
-    // Build the table rows
     let html = '';
     timeSlots.forEach(time => {
       html += '<tr>';
@@ -165,7 +159,6 @@
       });
     }
 
-    // Sort times chronologically
     return Array.from(times).sort((a, b) => {
       return timeToMinutes(a) - timeToMinutes(b);
     });
@@ -197,7 +190,6 @@
     let hours = parseInt(parts[0], 10) || 0;
     const minutes = parseInt(parts[1], 10) || 0;
 
-    // Convert to 24-hour format
     if (isPM && hours !== 12) {
       hours += 12;
     } else if (isAM && hours === 12) {
@@ -252,7 +244,6 @@
 
   /**
    * Update the "What's on now" display and upcoming shows
-   * Uses Eastern Time (ET) since that's the schedule's timezone
    */
   function updateWhatsOnNow() {
     if (!scheduleData?.schedule) {
@@ -272,7 +263,6 @@
       return;
     }
 
-    // Find the current show and upcoming shows
     let currentShow = null;
     let currentShowTime = '';
     let currentShowIndex = -1;
@@ -291,7 +281,6 @@
       whatsOnNow.textContent = `[NOW PLAYING] ${currentShow} (started at ${currentShowTime} ET)`;
       highlightCurrentSlot(currentDay, currentShowTime);
 
-      // Show next 3 upcoming shows
       const upcomingShows = [];
       for (let i = currentShowIndex + 1; i < daySchedule.slots.length && upcomingShows.length < 3; i++) {
         upcomingShows.push(daySchedule.slots[i]);
@@ -315,13 +304,11 @@
 
   /**
    * Highlight today's column
-   * Uses Eastern Time (ET) since that's the schedule's timezone
    */
   function highlightToday() {
     const et = getEasternTime();
     const today = et.day;
 
-    // Highlight header
     const headers = document.querySelectorAll('#schedule-table th');
     headers.forEach((th, index) => {
       if (index > 0 && DAYS[index - 1] === today) {
@@ -329,7 +316,6 @@
       }
     });
 
-    // Highlight cells
     const cells = document.querySelectorAll(`#schedule-table td[data-day="${today}"]`);
     cells.forEach(cell => cell.classList.add('today-column'));
   }
@@ -338,12 +324,10 @@
    * Highlight the current time slot
    */
   function highlightCurrentSlot(day, time) {
-    // Remove previous highlight
     document.querySelectorAll('.current-slot').forEach(el => {
       el.classList.remove('current-slot');
     });
 
-    // Add new highlight
     const normalizedTime = normalizeTime(time);
     const cells = document.querySelectorAll(`#schedule-table td[data-day="${day}"]`);
     cells.forEach(cell => {
@@ -374,7 +358,6 @@
       let rowHasMatch = false;
 
       cells.forEach((cell, index) => {
-        // Skip time column (index 0)
         if (index === 0) return;
 
         const text = cell.textContent.toLowerCase();
@@ -382,7 +365,6 @@
 
         if (hasMatch && cell.textContent.trim()) {
           rowHasMatch = true;
-          // Highlight matching text
           const regex = new RegExp(`(${escapeRegex(currentSearchTerm)})`, 'gi');
           cell.innerHTML = cell.textContent.replace(regex, '<span class="search-match">$1</span>');
         } else {
@@ -428,49 +410,6 @@
     scheduleBody.querySelectorAll('tr').forEach(row => {
       row.classList.remove('hidden-row');
     });
-  }
-
-  /**
-   * Scroll to today's column
-   */
-  function scrollToToday() {
-    const todayCell = document.querySelector('.today-column');
-    if (todayCell) {
-      todayCell.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
-      todayCell.focus();
-    }
-  }
-
-  /**
-   * Toggle dark/light theme
-   */
-  function toggleTheme() {
-    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    const newTheme = isDark ? 'light' : 'dark';
-
-    document.documentElement.setAttribute('data-theme', newTheme);
-    themeToggle.setAttribute('aria-pressed', !isDark);
-    themeToggle.textContent = isDark ? 'Dark Mode' : 'Light Mode';
-
-    // Save preference
-    localStorage.setItem('theme', newTheme);
-  }
-
-  /**
-   * Load theme preference from localStorage
-   */
-  function loadThemePreference() {
-    const savedTheme = localStorage.getItem('theme');
-
-    // Check for system preference if no saved preference
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const theme = savedTheme || (prefersDark ? 'dark' : 'light');
-
-    if (theme === 'dark') {
-      document.documentElement.setAttribute('data-theme', 'dark');
-      themeToggle.setAttribute('aria-pressed', 'true');
-      themeToggle.textContent = 'Light Mode';
-    }
   }
 
   /**
