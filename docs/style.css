@@ -30,18 +30,18 @@
   --gradient-gold: linear-gradient(135deg, #daa520 0%, #b8860b 50%, #cd853f 100%);
   --gradient-warm: linear-gradient(180deg, #faf6f1 0%, #f0e9df 100%);
 
-  /* Typography */
+  /* Typography - Larger sizes for accessibility */
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
-  --font-size-xs: 0.75rem;
-  --font-size-sm: 0.875rem;
-  --font-size-base: 1rem;
-  --font-size-lg: 1.125rem;
-  --font-size-xl: 1.25rem;
-  --font-size-2xl: 1.5rem;
-  --font-size-3xl: 2rem;
-  --font-size-4xl: 2.5rem;
+  --font-size-xs: 0.95rem;
+  --font-size-sm: 1.1rem;
+  --font-size-base: 1.25rem;
+  --font-size-lg: 1.4rem;
+  --font-size-xl: 1.6rem;
+  --font-size-2xl: 1.9rem;
+  --font-size-3xl: 2.5rem;
+  --font-size-4xl: 3.2rem;
   --line-height-tight: 1.25;
   --line-height-normal: 1.5;
   --line-height-relaxed: 1.75;
@@ -112,7 +112,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -381,7 +381,7 @@ main {
 #schedule-table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 900px;
+  min-width: 1100px;
 }
 
 #schedule-table th,
@@ -441,7 +441,7 @@ main {
 #schedule-table th:first-child {
   font-weight: 600;
   white-space: nowrap;
-  min-width: 110px;
+  min-width: 140px;
   color: var(--text-primary);
   background: var(--bg-secondary);
   border-right: 2px solid var(--border-accent);
@@ -659,8 +659,12 @@ footer a:focus {
 
 /* Responsive */
 @media screen and (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
   h1 {
-    font-size: var(--font-size-3xl);
+    font-size: var(--font-size-2xl);
   }
 
   .subtitle {
@@ -676,7 +680,7 @@ footer a:focus {
   }
 
   .now-playing {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-base);
     padding: var(--space-3) var(--space-4);
   }
 
@@ -687,7 +691,7 @@ footer a:focus {
 
   .coming-up-list li {
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     text-align: center;
   }
 
@@ -698,18 +702,18 @@ footer a:focus {
   }
 
   #schedule-table {
-    min-width: 600px;
+    min-width: 800px;
   }
 
   #schedule-table th,
   #schedule-table td {
-    padding: var(--space-2) var(--space-3);
-    font-size: var(--font-size-sm);
+    padding: var(--space-3) var(--space-4);
+    font-size: var(--font-size-base);
   }
 
   #schedule-table td:first-child,
   #schedule-table th:first-child {
-    min-width: 80px;
+    min-width: 110px;
   }
 }
 
