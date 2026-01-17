@@ -201,16 +201,13 @@ h1 {
   text-transform: uppercase;
 }
 
-/* Controls */
-.controls {
-  display: flex;
-  justify-content: center;
+/* Search */
+.search-wrapper {
   max-width: 500px;
-  margin: 0 auto;
+  margin: 0 auto var(--space-6) auto;
 }
 
 .search-container {
-  flex: 1;
   position: relative;
 }
 

@@ -13,8 +13,16 @@
   <header>
     <h1>Radio Classics Weekly Schedule</h1>
     <p class="subtitle">SiriusXM Channel 148 - Old Time Radio</p>
+  </header>
 
-    <div class="controls" role="group" aria-label="Schedule controls">
+  <main id="main-content">
+    <div class="schedule-info">
+      <p id="week-range" aria-live="polite">Loading schedule...</p>
+      <p id="whats-on-now" class="now-playing" aria-live="polite"></p>
+      <div id="coming-up" class="coming-up" aria-live="polite"></div>
+    </div>
+
+    <div class="search-wrapper">
       <div class="search-container">
         <label for="show-search" class="visually-hidden">Search shows</label>
         <input
@@ -27,14 +35,6 @@
           Type a show name to filter the schedule
         </span>
       </div>
-    </div>
-  </header>
-
-  <main id="main-content">
-    <div class="schedule-info">
-      <p id="week-range" aria-live="polite">Loading schedule...</p>
-      <p id="whats-on-now" class="now-playing" aria-live="polite"></p>
-      <div id="coming-up" class="coming-up" aria-live="polite"></div>
     </div>
 
     <div class="table-container" role="region" aria-label="Weekly schedule" tabindex="0">
