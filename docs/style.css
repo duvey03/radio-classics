@@ -663,36 +663,71 @@ footer a:focus {
     font-size: 16px;
   }
 
+  /* Compact header on mobile - minimize wasted space */
+  header {
+    padding: var(--space-3) var(--space-4);
+  }
+
+  header::before {
+    height: 2px;
+  }
+
   h1 {
-    font-size: var(--font-size-2xl);
+    font-size: var(--font-size-lg);
+    margin-bottom: 0;
   }
 
   .subtitle {
-    font-size: var(--font-size-base);
+    display: none;
   }
 
-  header {
-    padding: var(--space-6) var(--space-4);
+  /* Compact schedule info */
+  .schedule-info {
+    margin-bottom: var(--space-4);
+  }
+
+  #week-range {
+    font-size: var(--font-size-base);
+    margin-bottom: var(--space-3);
   }
 
   main {
-    padding: var(--space-4) var(--space-3);
+    padding: var(--space-3) var(--space-3);
   }
 
   .now-playing {
     font-size: var(--font-size-base);
-    padding: var(--space-3) var(--space-4);
+    padding: var(--space-2) var(--space-3);
+  }
+
+  .coming-up {
+    margin-top: var(--space-3);
+  }
+
+  .coming-up-label {
+    margin-bottom: var(--space-2);
   }
 
   .coming-up-list {
     flex-direction: column;
     align-items: center;
+    gap: var(--space-2);
   }
 
   .coming-up-list li {
     width: 100%;
     max-width: 350px;
     text-align: center;
+    padding: var(--space-2) var(--space-3);
+  }
+
+  /* Search bar compact */
+  .search-wrapper {
+    margin-bottom: var(--space-4);
+  }
+
+  #show-search {
+    padding: var(--space-2) var(--space-4);
   }
 
   .table-container {
@@ -714,6 +749,20 @@ footer a:focus {
   #schedule-table td:first-child,
   #schedule-table th:first-child {
     min-width: 110px;
+  }
+
+  /* Compact footer */
+  footer {
+    padding: var(--space-4) var(--space-4);
+  }
+
+  footer::before {
+    height: 2px;
+  }
+
+  footer p {
+    margin: var(--space-1) 0;
+    font-size: var(--font-size-xs);
   }
 }
 
