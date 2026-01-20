@@ -234,6 +234,111 @@ def parse_time_value_to_hour(time_val: str) -> Optional[int]:
     return None
 
 
+# Words that indicate a cell is a continuation of the previous cell
+CONTINUATION_WORDS = ['from ', 'with ', 'starring ', 'featuring ', 'hosted by ', 'and ']
+
+# Known 60-minute shows (partial matches)
+HOUR_SHOWS = ['lux radio', 'screen director', 'theatre guild', 'screen guild']
+
+
+def get_block_for_row(row: int, time_blocks: list[tuple[int, int]],
+                      rows_per_block: int) -> int:
+    """Get the block index for a given row number."""
+    for i, (block_start, _) in enumerate(time_blocks):
+        block_end = block_start + rows_per_block
+        if block_start <= row < block_end:
+            return i
+    return -1
+
+
+def is_continuation(text: str, prev_text: str, row: int, prev_row: int,
+                    time_blocks: list[tuple[int, int]], rows_per_block: int) -> bool:
+    """Determine if text is a continuation of the previous cell.
+
+    Returns True if the text should be joined with the previous cell.
+    """
+    if not text or not prev_text:
+        return False
+
+    # Never join across time block boundaries
+    if get_block_for_row(row, time_blocks, rows_per_block) != \
+       get_block_for_row(prev_row, time_blocks, rows_per_block):
+        return False
+
+    text_lower = text.lower().strip()
+    has_date = bool(re.search(r'\d{1,2}[-/]\d{1,2}[-/]\d{2,4}', text))
+
+    # Starts with continuation words = definitely continuation
+    for word in CONTINUATION_WORDS:
+        if text_lower.startswith(word):
+            return True
+
+    # Lowercase start WITHOUT a date = continuation
+    if text and text[0].islower() and not has_date:
+        return True
+
+    # Two consecutive cells without dates (excluding articles) = continuation
+    if not has_date and not any(text_lower.startswith(x) for x in ['the ', 'a ', 'an ']):
+        prev_has_date = bool(re.search(r'\d{1,2}[-/]\d{1,2}[-/]\d{2,4}', prev_text))
+        if not prev_has_date:
+            # Check if prev_text looks like a show name that continues
+            # Avoid joining unrelated shows - only join if no year pattern in prev
+            return True
+
+    return False
+
+
+def estimate_show_duration(show_name: str) -> int:
+    """Estimate show duration in minutes based on name patterns.
+
+    Old-time radio shows were typically 15, 30, or 60 minutes.
+    Returns duration in minutes.
+    """
+    show_lower = show_name.lower()
+
+    # Theme headers don't consume time (they're descriptive)
+    if show_lower.startswith('[theme]'):
+        return 0
+
+    # Explicit duration markers in the data
+    if '(1 hr)' in show_lower or '(60 min)' in show_lower or '(1 hour)' in show_lower:
+        return 60
+    if '(1/2 hr)' in show_lower or '(30 min)' in show_lower:
+        return 30
+    if '(15 min)' in show_lower:
+        return 15
+
+    # "Two From X" or "Two X Episodes" = 2 episodes x 30 min
+    if show_lower.startswith('two from ') or 'two episodes' in show_lower:
+        return 60
+
+    # "Two 1/2 Hour" pattern = 2 x 30 min
+    if 'two 1/2 hour' in show_lower:
+        return 60
+
+    # Known 60-minute shows
+    if any(show in show_lower for show in HOUR_SHOWS):
+        return 60
+
+    # Default to 30 minutes (most common for Golden Age radio)
+    return 30
+
+
+def is_theme_header(show_name: str, is_bold: bool) -> bool:
+    """Check if this is a theme header (birthday, marathon, etc.).
+
+    Theme headers are bold cells without dates that indicate themed programming.
+    """
+    has_date = bool(re.search(r'\d{1,2}[-/]\d{1,2}[-/]\d{2,4}', show_name))
+    if is_bold and not has_date:
+        lower = show_name.lower()
+        theme_keywords = ['birthday', 'marathon', 'when radio was', 'tribute',
+                         'anniversary', 'salute', 'celebration', 'memorial']
+        if any(kw in lower for kw in theme_keywords):
+            return True
+    return False
+
+
 def find_header_row(ws, max_rows: int = 20) -> Optional[tuple[int, dict]]:
     """Find the header row containing day names and return column mapping.
 
@@ -301,12 +406,22 @@ def parse_excel_schedule(excel_data: BytesIO) -> dict:
     - ET column (by finding "ET" in header)
     - Time blocks (by reading time values from ET column)
     - Rows per block (by counting rows between time markers)
+
+    Also handles:
+    - Multi-line show descriptions (joins continuations)
+    - Themed programming (bold cells without dates)
+    - Variable show durations (15, 30, or 60 minutes)
     """
-    wb = load_workbook(excel_data, data_only=True)
-    ws = wb.active
+    # Load workbook twice: once for values, once for formatting (bold detection)
+    wb_values = load_workbook(excel_data, data_only=True)
+    ws_values = wb_values.active
+
+    excel_data.seek(0)  # Reset stream position
+    wb_format = load_workbook(excel_data, data_only=False)
+    ws_format = wb_format.active
 
     # Step 1: Find the header row with day names
-    header_result = find_header_row(ws)
+    header_result = find_header_row(ws_values)
     if not header_result:
         logger.error("Could not find header row with day names")
         raise ValueError("Could not find header row with day names (MONDAY, TUESDAY, etc.)")
@@ -315,7 +430,7 @@ def parse_excel_schedule(excel_data: BytesIO) -> dict:
     logger.info(f"Day columns detected: {day_columns}")
 
     # Step 2: Find the ET (Eastern Time) column
-    et_column = find_et_column(ws, header_row)
+    et_column = find_et_column(ws_values, header_row)
     if not et_column:
         logger.warning("Could not find ET column, will try to infer time from block positions")
 
@@ -324,74 +439,137 @@ def parse_excel_schedule(excel_data: BytesIO) -> dict:
     time_blocks = []
 
     if et_column:
-        time_blocks = detect_time_blocks(ws, et_column, data_start_row)
+        time_blocks = detect_time_blocks(ws_values, et_column, data_start_row)
         logger.info(f"Detected {len(time_blocks)} time blocks from ET column")
 
     # Step 4: If we found time blocks, calculate rows per block
     if len(time_blocks) >= 2:
-        # Calculate rows per block from the gap between first two blocks
         rows_per_block = time_blocks[1][0] - time_blocks[0][0]
         logger.info(f"Rows per block: {rows_per_block}")
 
-        # Validate: all blocks should have same spacing
         for i in range(1, len(time_blocks)):
             gap = time_blocks[i][0] - time_blocks[i-1][0]
             if gap != rows_per_block:
                 logger.warning(f"Inconsistent block spacing: expected {rows_per_block}, got {gap} at block {i}")
-
-        # Calculate minutes per slot (2 hours = 120 minutes per block)
-        minutes_per_slot = 120 // rows_per_block
-        logger.info(f"Minutes per slot: {minutes_per_slot}")
     else:
-        # Fall back to defaults if we couldn't detect blocks
-        logger.warning("Could not detect time blocks, using default structure (5 rows, 24 min)")
+        logger.warning("Could not detect time blocks, using default structure (5 rows)")
         rows_per_block = 5
-        minutes_per_slot = 24
-        # Create default time blocks (12 blocks starting at midnight)
         time_blocks = [(data_start_row + i * rows_per_block, i * 2) for i in range(12)]
 
     # Step 5: Initialize day schedules
     day_schedules = {day: [] for day in day_columns.values()}
 
-    # Step 6: Process each time block
-    for block_idx, (block_start_row, base_hour) in enumerate(time_blocks):
-        for slot_idx in range(rows_per_block):
-            row_num = block_start_row + slot_idx
+    # Step 6: Process each day column separately to handle continuations
+    for col_idx, day_name in day_columns.items():
+        # Collect all cells for this day with their row numbers and values
+        day_cells = []
 
-            # Calculate time for this slot
-            total_minutes = base_hour * 60 + slot_idx * minutes_per_slot
-            hour = (total_minutes // 60) % 24
-            minute = total_minutes % 60
+        for block_idx, (block_start_row, base_hour) in enumerate(time_blocks):
+            for slot_idx in range(rows_per_block):
+                row_num = block_start_row + slot_idx
 
-            time_str = format_time_et(hour, minute)
+                cell_value = ws_values.cell(row=row_num, column=col_idx).value
+                cell_format = ws_format.cell(row=row_num, column=col_idx)
 
-            # Read each day's cell
-            for col_idx, day_name in day_columns.items():
-                cell = ws.cell(row=row_num, column=col_idx)
-                if cell.value and str(cell.value).strip():
-                    show_name = str(cell.value).strip()
-                    # Skip placeholder values
-                    if show_name.lower() not in ['none', 'n/a', '-', '']:
-                        day_schedules[day_name].append({
-                            "time": time_str,
-                            "show": show_name,
-                            "episode": ""
+                # Check if cell is bold
+                cell_bold = False
+                if cell_format.font and cell_format.font.bold:
+                    cell_bold = True
+
+                if cell_value and str(cell_value).strip():
+                    val = str(cell_value).strip()
+                    if val.lower() not in ['none', 'n/a', '-', '']:
+                        day_cells.append({
+                            'row': row_num,
+                            'value': val,
+                            'bold': cell_bold,
+                            'block_idx': block_idx,
+                            'base_hour': base_hour
                         })
 
-    # Step 7: Log results and validate
-    total_shows = sum(len(slots) for slots in day_schedules.values())
-    logger.info(f"Parsed {total_shows} total show slots across all days")
-    for day_name, slots in day_schedules.items():
-        logger.info(f"  {day_name}: {len(slots)} slots")
+        # Step 7: Join continuations for this day
+        joined_shows = []
+        i = 0
 
-    # Validation: warn if counts seem off
-    expected_slots_per_day = len(time_blocks) * rows_per_block
+        while i < len(day_cells):
+            current = day_cells[i]
+            show_parts = [current['value']]
+            start_row = current['row']
+            start_block_idx = current['block_idx']
+            start_base_hour = current['base_hour']
+            is_bold = current['bold']
+
+            # Look ahead for continuations
+            j = i + 1
+            while j < len(day_cells):
+                next_cell = day_cells[j]
+                prev_text = show_parts[-1]
+
+                if is_continuation(next_cell['value'], prev_text, next_cell['row'],
+                                   day_cells[j-1]['row'], time_blocks, rows_per_block):
+                    show_parts.append(next_cell['value'])
+                    j += 1
+                else:
+                    break
+
+            # Build the joined show name
+            show_name = ' '.join(show_parts)
+
+            # Check if this is a theme header
+            if is_theme_header(show_name, is_bold):
+                show_name = f"[THEME] {show_name}"
+
+            joined_shows.append({
+                'show': show_name,
+                'block_idx': start_block_idx,
+                'base_hour': start_base_hour,
+                'start_row': start_row
+            })
+
+            i = j
+
+        # Step 8: Calculate times based on show durations within each block
+        # Group shows by block
+        blocks = {}
+        for show in joined_shows:
+            block_idx = show['block_idx']
+            if block_idx not in blocks:
+                blocks[block_idx] = []
+            blocks[block_idx].append(show)
+
+        # Process each block and assign times
+        for block_idx, block_shows in blocks.items():
+            if not block_shows:
+                continue
+
+            base_hour = block_shows[0]['base_hour']
+            current_minutes = base_hour * 60
+
+            for show in block_shows:
+                hour = (current_minutes // 60) % 24
+                minute = current_minutes % 60
+                time_str = format_time_et(hour, minute)
+
+                day_schedules[day_name].append({
+                    "time": time_str,
+                    "show": show['show'],
+                    "episode": ""
+                })
+
+                # Add duration for next show's time
+                duration = estimate_show_duration(show['show'])
+                current_minutes += duration
+
+        logger.debug(f"  {day_name}: {len(day_cells)} cells -> {len(joined_shows)} shows")
+
+    # Step 9: Log results
+    total_shows = sum(len(slots) for slots in day_schedules.values())
+    logger.info(f"Parsed {total_shows} total shows across all days (after joining continuations)")
     for day_name, slots in day_schedules.items():
-        if len(slots) < expected_slots_per_day * 0.8:
-            logger.warning(f"{day_name} has fewer slots than expected ({len(slots)} vs ~{expected_slots_per_day})")
+        logger.info(f"  {day_name}: {len(slots)} shows")
 
     # Extract date range from the workbook
-    week_start, week_end = extract_date_range(ws)
+    week_start, week_end = extract_date_range(ws_values)
 
     schedule_data = {
         "week_start": week_start,
