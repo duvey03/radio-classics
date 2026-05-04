@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-04-27",
-  "week_end": "2026-05-03",
-  "last_updated": "2026-05-03T12:09:26.593596Z",
+  "week_start": "2026-05-04",
+  "week_end": "2026-05-10",
+  "last_updated": "2026-05-04T12:23:59.711789Z",
   "schedule": [
     {
       "day": "Sunday",
@@ -9,187 +9,182 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "[THEME] Dan O'Herlihy Birthday",
-          "episode": ""
-        },
-        {
-          "time": "12:00 AM",
-          "show": "Escape 4/11/48",
+          "show": "Fibber McGee & Molly From April 4th, 1944",
           "episode": ""
         },
         {
           "time": "12:30 AM",
-          "show": "Suspense 5/31/59",
+          "show": "Great Gildersleeve 12/2/45",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "The Weird Circle 5/14/44",
+          "show": "Richard Diamond  8/2/53",
           "episode": ""
         },
         {
           "time": "1:30 AM",
-          "show": "The Whistler 10/22/45",
+          "show": "Richard Diamond 2/16/51",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Sherlock Holmes From Feb 26th, 2006",
+          "show": "Let George Do It 6/6/49",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "Sherlock Holmes 1/30/55",
+          "show": "Richard Diamond 3/30/51",
           "episode": ""
         },
         {
           "time": "3:00 AM",
-          "show": "Duffy's Tavern 6/8/45",
+          "show": "Frank Race 11/7/49",
           "episode": ""
         },
         {
           "time": "3:30 AM",
-          "show": "The Life Of Riley 11/30/46",
+          "show": "Mr. Keen Tracer Of",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Crime Classics -",
+          "show": "Lost Persons 8/3/51",
+          "episode": ""
+        },
+        {
+          "time": "4:00 AM",
+          "show": "Harry Nile 12/12 2010",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "Old Six Toes 3/17/54",
+          "show": "Sherlock Holmes 2/13/2005",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "Romance..Ranchos 9/14/41",
+          "show": "Philip Marlowe 10/15/49",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "Gangbusters 7/31/48",
+          "show": "Story Of Dr. Kildare From April 12th, 1950",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "Boston Blackie 9/10/46",
+          "show": "[THEME] Anne Baxter Birthday American Gallery 1960s",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "Escape (7/5/53) -",
+          "show": "Suspense 2/20/47",
           "episode": ""
         },
         {
           "time": "6:30 AM",
-          "show": "A Source Of Irritation",
+          "show": "Charlie McCarthy 3/4/45",
           "episode": ""
         },
         {
           "time": "7:00 AM",
-          "show": "The Whistler 12/17/50",
-          "episode": ""
-        },
-        {
-          "time": "7:30 AM",
-          "show": "Murder By Experts 4/24/50",
+          "show": "Dennis Day Show 10/16/48",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "CBS Radio Workshop 8/4/57",
+          "show": "[THEME] Fred Astaire Birthday",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "Sherlock Holmes From June 26th, 2005 Harry Nile 3/9 2008",
+          "show": "on Burns & Allen 2/15/44",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "Suspense 11/3/42",
+          "show": "Screen Director's 4/24/49",
           "episode": ""
         },
         {
-          "time": "9:00 AM",
-          "show": "Suspense 5/11/43",
+          "time": "9:30 AM",
+          "show": "Bob Hope Show 2/17/48",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Phil Harris & Alice Faye From Oct. 15th, 1950.",
+          "show": "Couple Next Door 12/12/58",
           "episode": ""
         },
         {
-          "time": "10:30 AM",
-          "show": "Red Skelton Show 3/4/49",
+          "time": "10:00 AM",
+          "show": "Lux Radio Theatre's \"So Proudly We Hail\" From Nov 1st, 1942",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "The Chase 2/1/53",
+          "show": "Jack Benny Prgm 3/9/52",
           "episode": ""
         },
         {
           "time": "11:30 AM",
-          "show": "Gunsmoke 10/31/53",
+          "show": "Harris & Faye Show 11/14/48",
           "episode": ""
         },
         {
           "time": "12:00 PM",
-          "show": "The Lineup 4/24/51",
-          "episode": ""
-        },
-        {
-          "time": "12:30 PM",
-          "show": "Broadway Is My Beat 5/16/53",
-          "episode": ""
-        },
-        {
-          "time": "1:00 PM",
-          "show": "Rocky Jordan 8/13/50",
-          "episode": ""
-        },
-        {
-          "time": "1:30 PM",
-          "show": "Rocky Fortune (1/26/54) Starring Frank Sinatra",
+          "show": "Ma Perkins Mother's Day Special Four-Hour Eight Episode Special From September 1949 starring Virginia Payne",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "[THEME] Glenn Ford's Birthday Starring In Studio One's",
-          "episode": ""
-        },
-        {
-          "time": "2:00 PM",
-          "show": "\"The 39 Steps\" 3/23/48",
+          "show": "Great Gildersleeve Hour",
           "episode": ""
         },
         {
           "time": "2:30 PM",
-          "show": "& in Suspense 2/6/47",
+          "show": "Bronco Disappears 5/3/50",
           "episode": ""
         },
         {
           "time": "3:00 PM",
-          "show": "Frontier Fighters 1935",
+          "show": "Marjorie's Wedding 5/10/50",
+          "episode": ""
+        },
+        {
+          "time": "3:30 PM",
+          "show": "Dragnet Big Fall Guy 6/14/55",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Norman Corwin Birthday \"Citizen Of The World\" 1 HR with Lee J. Cobb 7/10/49",
+          "show": "Texas Rangers 8/19/50",
+          "episode": ""
+        },
+        {
+          "time": "4:00 PM",
+          "show": "Mother's Day Comedy Block",
           "episode": ""
         },
         {
           "time": "4:30 PM",
-          "show": "\"Odyssey/Runyon…\" 4/4/44",
+          "show": "Our Miss Brooks 5/14/50",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "Greg's Visit With Norman",
+          "show": "Harris & Faye  5/14/50",
+          "episode": ""
+        },
+        {
+          "time": "5:30 PM",
+          "show": "Red Skelton Show 5/14/50",
+          "episode": ""
+        },
+        {
+          "time": "6:00 PM",
+          "show": "Life of Riley 5/8/48",
           "episode": ""
         },
         {
@@ -199,67 +194,67 @@
         },
         {
           "time": "6:00 PM",
-          "show": "Jack Benny 10/27/46 Pt 1",
+          "show": "Behind The Mike 10/27/40",
           "episode": ""
         },
         {
           "time": "6:30 PM",
-          "show": "The Weird Circle 5/4/44",
+          "show": "X Minus One 9/26/57",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "Mr. Keen, Tracer Of…3/16/50",
+          "show": "Quiet, Please 3/13/49",
           "episode": ""
         },
         {
           "time": "7:30 PM",
-          "show": "Escape Treasure Inc 1/24/50",
+          "show": "Lights Out 6/5/43",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "[THEME] Bing Crosby Birthday",
-          "episode": ""
-        },
-        {
-          "time": "8:00 PM",
-          "show": "Philco Radio Time 10/16/46",
+          "show": "Tales Of Texas Rangers from April 19th, 1950",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "Guest: Bob Hope 1/16/52",
+          "show": "Night Beat 7/24/50",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "Guest: Frank Sinatra 3/28/54",
+          "show": "Lights Out 12/8/42",
           "episode": ""
         },
         {
           "time": "9:30 PM",
-          "show": "Kraft Music Hall 11/16/44",
+          "show": "Lights Out 1/5/43",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "[THEME] Mary Astor's Birthday Campbell Playhouse's",
+          "show": "[THEME] Nurse's Day Tribute",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "The Hurricane 11/5/39",
+          "show": "Inheritance 4/11/54",
           "episode": ""
         },
         {
           "time": "10:30 PM",
-          "show": "In Suspense 2/16/43",
+          "show": "Arch Oboler's Plays 4/5/45",
           "episode": ""
         },
         {
           "time": "11:00 PM",
-          "show": "Johnny Dollar 12/30/56",
+          "show": "Dr. Kildare 5/17/50",
+          "episode": ""
+        },
+        {
+          "time": "11:30 PM",
+          "show": "Charlie McCarthy Show 9/9/45",
           "episode": ""
         }
       ]
@@ -270,137 +265,112 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "Studio One's 79th Anniv Wuthering Heights From Sept. 30th, 1947",
+          "show": "[THEME] Orson Welles Birthday 1 Black Museum 1952",
           "episode": ""
         },
         {
           "time": "12:00 AM",
-          "show": "Johnny Dollar 1/2 Hr 11/3/51",
+          "show": "The Third Man 8/3/51",
           "episode": ""
         },
         {
           "time": "12:30 AM",
-          "show": "The Weird Circle 12/26/43",
+          "show": "Suspense 9/23/43",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "Lum and Abner 6/2/42",
+          "show": "Fred Allen Show 3/3/46",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "The Lineup 4/24/51",
-          "episode": ""
-        },
-        {
-          "time": "2:30 AM",
-          "show": "Broadway Is My Beat 5/16/53",
-          "episode": ""
-        },
-        {
-          "time": "3:00 AM",
-          "show": "Rocky Jordan 8/13/50",
-          "episode": ""
-        },
-        {
-          "time": "3:30 AM",
-          "show": "Rocky Fortune (1/26/54) Starring Frank Sinatra",
+          "show": "Ma Perkins Mother's Day Special Four-Hour Eight Episode Special From September 1949 starring Virginia Payne",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Burns & Allen Show with Brian Aherne 3/28/44",
-          "episode": ""
-        },
-        {
-          "time": "4:30 AM",
-          "show": "Duffy's Tavern 9/21/50",
+          "show": "Two From Dragnet",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "The Saint 7/9/50",
+          "show": "Big Pleas 10/13/53",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "Sherlock Holmes 9/28/47",
+          "show": "Big Pipe 2/23/54",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "[THEME] Dan O'Herlihy Birthday",
+          "show": "Jack Benny Prgm 10/23/38",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "Escape 4/11/48",
+          "show": "Fibber McGee & Molly From April 4th, 1944",
           "episode": ""
         },
         {
           "time": "6:30 AM",
-          "show": "Suspense 5/31/59",
+          "show": "Charlie McCarthy 2/4/45",
+          "episode": ""
+        },
+        {
+          "time": "6:30 AM",
+          "show": "Great Gildersleeve 12/2/45",
           "episode": ""
         },
         {
           "time": "7:00 AM",
-          "show": "The Weird Circle 5/14/44",
+          "show": "Richard Diamond  8/2/53",
           "episode": ""
         },
         {
           "time": "7:30 AM",
-          "show": "The Whistler 10/22/45",
+          "show": "Richard Diamond 2/16/51",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "Sherlock Holmes 9/12/48",
+          "show": "[THEME] Orson Welles Birthday 2 Mercury Theatre's Count Of",
+          "episode": ""
+        },
+        {
+          "time": "8:00 AM",
+          "show": "Monte Cristo 8/29/38 and on Jack Benny 3/21/43",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "Suspense 7/30/61",
-          "episode": ""
-        },
-        {
-          "time": "9:00 AM",
-          "show": "Weird Circle's (9/26/43) -",
-          "episode": ""
-        },
-        {
-          "time": "9:30 AM",
-          "show": "\"Declared Insane\"",
+          "show": "O Welles Meets H.G. Wells",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "The Hermit's Cave 1940s",
+          "show": "[THEME] Frank Nelson Birthday",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Harry McNaughton B-Day",
+          "show": "Jeff Regan 4/5/50",
           "episode": ""
         },
         {
           "time": "10:30 AM",
-          "show": "It's Higgins, Sir 7/3/51",
+          "show": "Jeff Regan 5/19/50",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "It's Higgins, Sir 9/6/51",
+          "show": "Jack Benny Prgm 1/19/47",
           "episode": ""
         },
         {
           "time": "11:30 AM",
-          "show": "Grand Marquee 7/9/46",
-          "episode": ""
-        },
-        {
-          "time": "12:00 PM",
-          "show": "Couple Next Door 1/15/58",
+          "show": "Jack Benny Prgm 10/17/48",
           "episode": ""
         },
         {
@@ -410,132 +380,127 @@
         },
         {
           "time": "12:00 PM",
-          "show": "Life Of Riley 12/2/49",
+          "show": "Burns & Allen 1/25/50",
           "episode": ""
         },
         {
           "time": "12:30 PM",
-          "show": "Lum and Abner 7/14/43",
+          "show": "Couple Next Door 12/11/58",
           "episode": ""
         },
         {
           "time": "1:00 PM",
-          "show": "Mr. Keen, Tracer Of…3/16/50",
+          "show": "Quiet, Please 3/13/49",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "Escape Treasure Inc 1/24/50",
+          "show": "Lights Out 6/5/43",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "[THEME] Bing Crosby Birthday",
-          "episode": ""
-        },
-        {
-          "time": "2:00 PM",
-          "show": "Philco Radio Time 10/16/46",
+          "show": "Tales Of Texas Rangers from April 19th, 1950",
           "episode": ""
         },
         {
           "time": "2:30 PM",
-          "show": "Guest: Bob Hope 1/16/52",
+          "show": "Night Beat 7/24/50",
           "episode": ""
         },
         {
           "time": "3:00 PM",
-          "show": "Guest: Frank Sinatra 3/28/54",
+          "show": "Lights Out 12/8/42",
           "episode": ""
         },
         {
           "time": "3:30 PM",
-          "show": "Kraft Music Hall 11/16/44",
+          "show": "Lights Out 1/5/43",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "First & Finale Special",
+          "show": "First & Finale Special Chase & Sanborn Hour",
           "episode": ""
         },
         {
           "time": "4:30 PM",
-          "show": "Jack Benny Debut 5/2/32",
+          "show": "1st With E. Bergen 5/9/37",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "Jack Benny Last 5/22/55",
+          "show": "Then Final Show 12/26/48",
           "episode": ""
         },
         {
           "time": "5:30 PM",
-          "show": "Ford Theater - Horn Blows Bill Stern Sports News",
+          "show": "Two From Vic & Sade",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Rosemary Rice In",
+          "show": "[THEME] Mike Wallace Birthday",
+          "episode": ""
+        },
+        {
+          "time": "6:00 PM",
+          "show": "Sky King 7/23/47",
           "episode": ""
         },
         {
           "time": "6:30 PM",
-          "show": "Suspense 2/25/62",
+          "show": "Green Hornet 9/5/44",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "Suspense 7/2/61",
+          "show": "Meet The Meeks 1/24/48",
           "episode": ""
         },
         {
           "time": "7:30 PM",
-          "show": "Archie Andrews 10/19/46",
+          "show": "Baby Snooks & Daddy",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "Jimmy Durante Show 4/21/48",
-          "episode": ""
-        },
-        {
-          "time": "8:00 PM",
-          "show": "Ned Wever In 2 Episodes From Bulldog Drummond",
+          "show": "Stars Wars Day Special",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "12/27/47 & 6/6/48",
+          "show": "Report On We'an's 11/11/56 And Moon Be Still As..9/22/55",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "Gangbusters 8/16/52",
+          "show": "Beware Of Tomorrow 4/9/44",
           "episode": ""
         },
         {
           "time": "9:30 PM",
-          "show": "Mr. District Attorney 2/8/53",
+          "show": "Child's Play 10/20/55",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Dragnet Hour",
+          "show": "Gunsmoke 6/27/53",
           "episode": ""
         },
         {
           "time": "10:30 PM",
-          "show": "Big Cab 9/15/53",
+          "show": "Gunsmoke 12/11/54",
           "episode": ""
         },
         {
           "time": "11:00 PM",
-          "show": "Big Lift 4/27/54",
+          "show": "Frontier Gentleman 6/29/58",
           "episode": ""
         },
         {
           "time": "11:30 PM",
-          "show": "This Is Your FBI 11/9/51",
+          "show": "Hawk Larabee (10/18/47) with Elliott Lewis",
           "episode": ""
         }
       ]
@@ -546,122 +511,127 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "Norman Corwin Birthday \"Citizen Of The World\" 1 HR with Lee J. Cobb 7/10/49",
+          "show": "Mother's Day Comedy Block",
           "episode": ""
         },
         {
           "time": "12:30 AM",
-          "show": "\"Odyssey/Runyon…\" 4/4/44",
+          "show": "Our Miss Brooks 5/14/50",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "Greg's Visit With Norman",
+          "show": "Harris & Faye  5/14/50",
+          "episode": ""
+        },
+        {
+          "time": "1:30 AM",
+          "show": "Red Skelton Show 5/14/50",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Eve Arden - Miss Brooks",
+          "show": "Life of Riley 5/8/48",
+          "episode": ""
+        },
+        {
+          "time": "2:00 AM",
+          "show": "[THEME] Gary Cooper Birthday Lux Radio Theatre's",
+          "episode": ""
+        },
+        {
+          "time": "2:00 AM",
+          "show": "The Virginian 11/2/36",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "Babysitting 11/14/48",
+          "show": "On Bob Hope Show 1/4/44",
           "episode": ""
         },
         {
           "time": "3:00 AM",
-          "show": "Dress Code Protest 4/24/49",
-          "episode": ""
-        },
-        {
-          "time": "3:30 AM",
-          "show": "Faculty Cheerleader 9/18/49",
+          "show": "Charlie McCarthy Show 1/5/47",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Magazine Articles 4/17/55",
+          "show": "[THEME] Anne Baxter Birthday American Gallery 1960s",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Escape (7/5/53) -",
+          "show": "Suspense 2/20/47",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "A Source Of Irritation",
+          "show": "Charlie McCarthy 3/4/45",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "The Whistler 12/17/50",
-          "episode": ""
-        },
-        {
-          "time": "5:30 AM",
-          "show": "Murder By Experts 4/24/50",
+          "show": "Dennis Day Show 10/16/48",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "CBS Radio Workshop 8/4/57",
+          "show": "[THEME] Yours Truly, Johnny Dollar Marathon \"The Forbes Matter\" with Bob Bailey (Dec 1955)",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "[THEME] Yours Truly, Johnny Dollar Marathon July '56",
-          "episode": ""
-        },
-        {
-          "time": "6:00 AM",
-          "show": "The Midas Touch Matter with Bob Bailey",
-          "episode": ""
-        },
-        {
-          "time": "6:30 AM",
-          "show": "Johnny Dollar 10/14/50",
+          "show": "Escape Blood Bath 6/30/50",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "Quiet Please 8/2/48",
+          "show": "Broadway Is My Beat",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "Murder At Midnight 9/27/46",
+          "show": "Ruth Shay Case 5/30/53",
           "episode": ""
         },
         {
           "time": "9:00 AM",
-          "show": "Box 13 Alan Ladd 5/22/49",
+          "show": "21st Precinct 7/21/53",
           "episode": ""
         },
         {
           "time": "9:30 AM",
-          "show": "Casey, Crime Photographer From Apr. 17th, 1947",
+          "show": "The Lineup 2/22/51",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "[THEME] Glenn Ford's Birthday Starring In Studio One's",
+          "show": "Police Headquarters 1932",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "\"The 39 Steps\" 3/23/48",
+          "show": "Great Gildersleeve Hour",
           "episode": ""
         },
         {
           "time": "10:30 AM",
-          "show": "& in Suspense 2/6/47",
+          "show": "Bronco Disappears 5/3/50",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "Frontier Fighters 1935",
+          "show": "Marjorie's Wedding 5/10/50",
+          "episode": ""
+        },
+        {
+          "time": "11:30 AM",
+          "show": "Dragnet Big Fall Guy 6/14/55",
+          "episode": ""
+        },
+        {
+          "time": "12:00 PM",
+          "show": "Texas Rangers 8/19/50",
           "episode": ""
         },
         {
@@ -671,7 +641,7 @@
         },
         {
           "time": "12:00 PM",
-          "show": "Gunsmoke Gonif 4/11/53",
+          "show": "Great Gildersleeve 11/2/41",
           "episode": ""
         },
         {
@@ -681,112 +651,132 @@
         },
         {
           "time": "1:00 PM",
-          "show": "The Saint 3/11/51",
+          "show": "Jeff Regan 9/11/48",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "The Weird Circle 11/26/44",
+          "show": "Suspense 4/7/52",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "Sherlock Holmes From June 26th, 2005 Harry Nile 3/9 2008",
+          "show": "[THEME] Fred Astaire Birthday",
+          "episode": ""
+        },
+        {
+          "time": "2:00 PM",
+          "show": "on Burns & Allen 2/15/44",
           "episode": ""
         },
         {
           "time": "2:30 PM",
-          "show": "Suspense 11/3/42",
+          "show": "Screen Director's 4/24/49",
           "episode": ""
         },
         {
-          "time": "3:00 PM",
-          "show": "Suspense 5/11/43",
+          "time": "3:30 PM",
+          "show": "Bob Hope Show 2/17/48",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Hopalong Cassidy 10/27/51",
+          "show": "Couple Next Door 12/12/58",
+          "episode": ""
+        },
+        {
+          "time": "4:00 PM",
+          "show": "The Lineup 11/16/50",
           "episode": ""
         },
         {
           "time": "4:30 PM",
-          "show": "Hopalong Cassidy 12/29/51",
+          "show": "The Lineup 11/30/50",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "CBS Radio Workshop 4/7/57",
+          "show": "Fibber McGee & Molly 6/4/46",
           "episode": ""
         },
         {
           "time": "5:30 PM",
-          "show": "Behind The Mike 4/20/41",
+          "show": "Jack Benny Prgm 11/15/53",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Fibber McGee & Molly From Oct 9th, 1945",
+          "show": "Tyrone Power Guests",
           "episode": ""
         },
         {
           "time": "6:30 PM",
-          "show": "Jack Benny Prgm 5/29/49",
+          "show": "on Jack Benny 12/4/49",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "Sam Spade 9/3/50",
+          "show": "Fibber McGee/Molly 4/10/45",
           "episode": ""
         },
         {
           "time": "7:30 PM",
-          "show": "Sherlock Holmes 2/17/47",
+          "show": "The Green Hornet 10/5/46",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "Lionel Barrymore B-Day",
+          "show": "Escape \"Sure Thing\" 1/17/50",
+          "episode": ""
+        },
+        {
+          "time": "8:00 PM",
+          "show": "[THEME] Alice Faye's Birthday",
+          "episode": ""
+        },
+        {
+          "time": "8:00 PM",
+          "show": "Harris & Faye 10/28/51",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "Mayor Of...Town 9/13/42",
+          "show": "Harris & Faye 4/20/52",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "Dr. Kildare 6/29/50",
+          "show": "Harris & Faye 3/19/50",
           "episode": ""
         },
         {
           "time": "9:30 PM",
-          "show": "Request Perform..12/7/46",
+          "show": "Screen Guild Thtr 3/29/46",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Harris & Faye Show 11/9/52",
+          "show": "[THEME] Ben Wright's Birthday",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "The Six Shooter 1/3/54",
+          "show": "Pursuit 11/20/51",
           "episode": ""
         },
         {
           "time": "10:30 PM",
-          "show": "Gunsmoke 7/22/56",
+          "show": "Suspense 7/3/56",
           "episode": ""
         },
         {
           "time": "11:00 PM",
-          "show": "The Lineup 7/27/50",
+          "show": "Crime Classics 3/31/54",
           "episode": ""
         },
         {
           "time": "11:30 PM",
-          "show": "FBI In Peace & War From Aug 2nd, 1951",
+          "show": "Have Gun, Will T…3/22/59",
           "episode": ""
         }
       ]
@@ -797,137 +787,117 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "Crime Classics -",
-          "episode": ""
-        },
-        {
-          "time": "12:00 AM",
-          "show": "The Hermit's Cave 1940s",
+          "show": "Harry Nile 12/12 2010",
           "episode": ""
         },
         {
           "time": "12:30 AM",
-          "show": "Old Six Toes 3/17/54",
+          "show": "Sherlock Holmes 2/13/2005",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "Romance..Ranchos 9/14/41",
+          "show": "Philip Marlowe 10/15/49",
           "episode": ""
         },
         {
           "time": "1:30 AM",
-          "show": "Gangbusters 7/31/48",
+          "show": "Story Of Dr. Kildare From April 12th, 1950",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Boston Blackie 9/10/46",
-          "episode": ""
-        },
-        {
-          "time": "2:00 AM",
-          "show": "Red Skelton Show 3/19/50",
+          "show": "Boston Blackie 12/10/46",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "Damon Runyon 10/10/49",
+          "show": "Peter Chambers 8/10/54",
           "episode": ""
         },
         {
           "time": "3:00 AM",
-          "show": "Life With Luigi 2/21/50",
+          "show": "Command Performance with Bogie & Bacall 8/30/45",
           "episode": ""
         },
         {
           "time": "3:30 AM",
-          "show": "The Great Gildersleeve From Nov. 23rd, 1941",
+          "show": "Bob Hope Grace Kelly 5/14/54",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Dragnet Hour",
+          "show": "Gunsmoke 6/27/53",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "Big Cab 9/15/53",
+          "show": "Gunsmoke 12/11/54",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "Big Lift 4/27/54",
+          "show": "Frontier Gentleman 6/29/58",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "This Is Your FBI 11/9/51",
+          "show": "Hawk Larabee (10/18/47) with Elliott Lewis",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "Johnny Dollar 1/2 Hr 11/3/51",
-          "episode": ""
-        },
-        {
-          "time": "6:00 AM",
-          "show": "Phil Harris & Alice Faye From Oct. 15th, 1950.",
-          "episode": ""
-        },
-        {
-          "time": "6:30 AM",
-          "show": "Red Skelton Show 3/4/49",
+          "show": "Lux Radio Theatre's \"So Proudly We Hail\" From Nov 1st, 1942",
           "episode": ""
         },
         {
           "time": "7:00 AM",
-          "show": "The Chase 2/1/53",
+          "show": "Jack Benny Prgm 3/9/52",
           "episode": ""
         },
         {
           "time": "7:30 AM",
-          "show": "Gunsmoke 10/31/53",
+          "show": "Harris & Faye Show 11/14/48",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "First & Finale Special",
+          "show": "First & Finale Special Chase & Sanborn Hour",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "Jack Benny Debut 5/2/32",
+          "show": "1st With E. Bergen 5/9/37",
           "episode": ""
         },
         {
           "time": "9:00 AM",
-          "show": "Jack Benny Last 5/22/55",
+          "show": "Then Final Show 12/26/48",
           "episode": ""
         },
         {
           "time": "9:30 AM",
-          "show": "Ford Theater - Horn Blows Bill Stern Sports News",
+          "show": "Two From Vic & Sade",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Ned Wever In 2 Episodes From Bulldog Drummond",
+          "show": "Stars Wars Day Special",
           "episode": ""
         },
         {
           "time": "10:30 AM",
-          "show": "12/27/47 & 6/6/48",
+          "show": "Report On We'an's 11/11/56 And Moon Be Still As..9/22/55",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "Gangbusters 8/16/52",
+          "show": "Beware Of Tomorrow 4/9/44",
           "episode": ""
         },
         {
           "time": "11:30 AM",
-          "show": "Mr. District Attorney 2/8/53",
+          "show": "Child's Play 10/20/55",
           "episode": ""
         },
         {
@@ -937,122 +907,132 @@
         },
         {
           "time": "12:00 PM",
-          "show": "Broadway's My Beat 12/10/49",
+          "show": "X Minus One 5/29/56",
           "episode": ""
         },
         {
           "time": "12:30 PM",
-          "show": "Superman 10/10/47 Pt 10",
+          "show": "Superman 10/13/47 Pt 11",
           "episode": ""
         },
         {
           "time": "1:00 PM",
-          "show": "Dimension X 7/12/51",
+          "show": "Rocky Jordan 4/3/49",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "The Whistler 7/16/47",
+          "show": "Richard Diamond 9/10/49",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "[THEME] Mary Astor's Birthday Campbell Playhouse's",
+          "show": "[THEME] Nurse's Day Tribute",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "The Hurricane 11/5/39",
+          "show": "Inheritance 4/11/54",
           "episode": ""
         },
         {
           "time": "2:30 PM",
-          "show": "In Suspense 2/16/43",
+          "show": "Arch Oboler's Plays 4/5/45",
           "episode": ""
         },
         {
           "time": "3:00 PM",
-          "show": "Johnny Dollar 12/30/56",
+          "show": "Dr. Kildare 5/17/50",
+          "episode": ""
+        },
+        {
+          "time": "3:30 PM",
+          "show": "Charlie McCarthy Show 9/9/45",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Sherlock Holmes From Feb 26th, 2006",
+          "show": "Let George Do It 6/6/49",
           "episode": ""
         },
         {
           "time": "4:30 PM",
-          "show": "Sherlock Holmes 1/30/55",
+          "show": "Richard Diamond 3/30/51",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "Duffy's Tavern 6/8/45",
+          "show": "Frank Race 11/7/49",
           "episode": ""
         },
         {
           "time": "5:30 PM",
-          "show": "The Life Of Riley 11/30/46",
+          "show": "Mr. Keen Tracer Of",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Harry McNaughton B-Day",
+          "show": "Lost Persons 8/3/51",
+          "episode": ""
+        },
+        {
+          "time": "6:00 PM",
+          "show": "[THEME] Frank Nelson Birthday",
+          "episode": ""
+        },
+        {
+          "time": "6:00 PM",
+          "show": "Jeff Regan 4/5/50",
           "episode": ""
         },
         {
           "time": "6:30 PM",
-          "show": "It's Higgins, Sir 7/3/51",
+          "show": "Jeff Regan 5/19/50",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "It's Higgins, Sir 9/6/51",
+          "show": "Jack Benny Prgm 1/19/47",
           "episode": ""
         },
         {
           "time": "7:30 PM",
-          "show": "Grand Marquee 7/9/46",
+          "show": "Jack Benny Prgm 10/17/48",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "Couple Next Door 1/15/58",
+          "show": "[THEME] Orson Welles Birthday 1 Black Museum 1952",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "Studio One's 79th Anniv Wuthering Heights From Sept. 30th, 1947",
+          "show": "The Third Man 8/3/51",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "The Weird Circle 12/26/43",
+          "show": "Suspense 9/23/43",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "Lum and Abner 6/2/42",
+          "show": "Fred Allen Show 3/3/46",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Sherlock Holmes 9/12/48",
+          "show": "[THEME] Orson Welles Birthday 2 Mercury Theatre's Count Of",
+          "episode": ""
+        },
+        {
+          "time": "10:00 PM",
+          "show": "Monte Cristo 8/29/38 and on Jack Benny 3/21/43",
           "episode": ""
         },
         {
           "time": "10:30 PM",
-          "show": "Suspense 7/30/61",
-          "episode": ""
-        },
-        {
-          "time": "11:00 PM",
-          "show": "Weird Circle's (9/26/43) -",
-          "episode": ""
-        },
-        {
-          "time": "11:30 PM",
-          "show": "\"Declared Insane\"",
+          "show": "O Welles Meets H.G. Wells",
           "episode": ""
         }
       ]
@@ -1063,122 +1043,147 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "Quiet Please 8/2/48",
+          "show": "Broadway Is My Beat",
           "episode": ""
         },
         {
           "time": "12:30 AM",
-          "show": "Murder At Midnight 9/27/46",
+          "show": "Ruth Shay Case 5/30/53",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "Box 13 Alan Ladd 5/22/49",
+          "show": "21st Precinct 7/21/53",
           "episode": ""
         },
         {
           "time": "1:30 AM",
-          "show": "Casey, Crime Photographer From Apr. 17th, 1947",
+          "show": "The Lineup 2/22/51",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Sherlock Holmes From June 26th, 2005 Harry Nile 3/9 2008",
+          "show": "Police Headquarters 1932",
+          "episode": ""
+        },
+        {
+          "time": "2:00 AM",
+          "show": "[THEME] Fred Astaire Birthday",
+          "episode": ""
+        },
+        {
+          "time": "2:00 AM",
+          "show": "on Burns & Allen 2/15/44",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "Suspense 11/3/42",
+          "show": "Screen Director's 4/24/49",
           "episode": ""
         },
         {
-          "time": "3:00 AM",
-          "show": "Suspense 5/11/43",
-          "episode": ""
-        },
-        {
-          "time": "4:00 AM",
-          "show": "[THEME] Bing Crosby Birthday",
+          "time": "3:30 AM",
+          "show": "Bob Hope Show 2/17/48",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Philco Radio Time 10/16/46",
+          "show": "Couple Next Door 12/12/58",
+          "episode": ""
+        },
+        {
+          "time": "4:00 AM",
+          "show": "Tales Of Texas Rangers from April 19th, 1950",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "Guest: Bob Hope 1/16/52",
+          "show": "Night Beat 7/24/50",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "Guest: Frank Sinatra 3/28/54",
+          "show": "Lights Out 12/8/42",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "Kraft Music Hall 11/16/44",
+          "show": "Lights Out 1/5/43",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "Rosemary Rice In",
+          "show": "[THEME] Mike Wallace Birthday",
+          "episode": ""
+        },
+        {
+          "time": "6:00 AM",
+          "show": "Sky King 7/23/47",
           "episode": ""
         },
         {
           "time": "6:30 AM",
-          "show": "Suspense 2/25/62",
+          "show": "Green Hornet 9/5/44",
           "episode": ""
         },
         {
           "time": "7:00 AM",
-          "show": "Suspense 7/2/61",
+          "show": "Meet The Meeks 1/24/48",
           "episode": ""
         },
         {
           "time": "7:30 AM",
-          "show": "Archie Andrews 10/19/46",
+          "show": "Baby Snooks & Daddy",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "Jimmy Durante Show 4/21/48",
-          "episode": ""
-        },
-        {
-          "time": "8:00 AM",
-          "show": "Burns & Allen Show with Brian Aherne 3/28/44",
-          "episode": ""
-        },
-        {
-          "time": "8:30 AM",
-          "show": "Duffy's Tavern 9/21/50",
+          "show": "Two From Dragnet",
           "episode": ""
         },
         {
           "time": "9:00 AM",
-          "show": "The Saint 7/9/50",
+          "show": "Big Pleas 10/13/53",
           "episode": ""
         },
         {
           "time": "9:30 AM",
-          "show": "Sherlock Holmes 9/28/47",
+          "show": "Big Pipe 2/23/54",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Norman Corwin Birthday \"Citizen Of The World\" 1 HR with Lee J. Cobb 7/10/49",
+          "show": "Jack Benny Prgm 10/23/38",
+          "episode": ""
+        },
+        {
+          "time": "10:00 AM",
+          "show": "Mother's Day Comedy Block",
           "episode": ""
         },
         {
           "time": "10:30 AM",
-          "show": "\"Odyssey/Runyon…\" 4/4/44",
+          "show": "Charlie McCarthy 2/4/45",
+          "episode": ""
+        },
+        {
+          "time": "10:30 AM",
+          "show": "Our Miss Brooks 5/14/50",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "Greg's Visit With Norman",
+          "show": "Harris & Faye  5/14/50",
+          "episode": ""
+        },
+        {
+          "time": "11:30 AM",
+          "show": "Red Skelton Show 5/14/50",
+          "episode": ""
+        },
+        {
+          "time": "12:00 PM",
+          "show": "Life of Riley 5/8/48",
           "episode": ""
         },
         {
@@ -1188,132 +1193,102 @@
         },
         {
           "time": "12:00 PM",
-          "show": "The Falcon 10/12/51",
+          "show": "Crime Classics 11/11/53",
           "episode": ""
         },
         {
           "time": "12:30 PM",
-          "show": "Chandu Magician 10/29/48",
+          "show": "Chandu Magician 11/1/48",
           "episode": ""
         },
         {
           "time": "1:00 PM",
-          "show": "Mr. Keen, Tracer Of…3/16/50",
+          "show": "Quiet, Please 3/13/49",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "Escape Treasure Inc 1/24/50",
+          "show": "Lights Out 6/5/43",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "Lionel Barrymore B-Day",
+          "show": "[THEME] Alice Faye's Birthday",
+          "episode": ""
+        },
+        {
+          "time": "2:00 PM",
+          "show": "Harris & Faye 10/28/51",
           "episode": ""
         },
         {
           "time": "2:30 PM",
-          "show": "Mayor Of...Town 9/13/42",
+          "show": "Harris & Faye 4/20/52",
           "episode": ""
         },
         {
           "time": "3:00 PM",
-          "show": "Dr. Kildare 6/29/50",
+          "show": "Harris & Faye 3/19/50",
           "episode": ""
         },
         {
           "time": "3:30 PM",
-          "show": "Request Perform..12/7/46",
+          "show": "Screen Guild Thtr 3/29/46",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Harris & Faye Show 11/9/52",
-          "episode": ""
-        },
-        {
-          "time": "4:00 PM",
-          "show": "The Lineup 4/24/51",
-          "episode": ""
-        },
-        {
-          "time": "4:30 PM",
-          "show": "Broadway Is My Beat 5/16/53",
-          "episode": ""
-        },
-        {
-          "time": "5:00 PM",
-          "show": "Rocky Jordan 8/13/50",
-          "episode": ""
-        },
-        {
-          "time": "5:30 PM",
-          "show": "Rocky Fortune (1/26/54) Starring Frank Sinatra",
+          "show": "Ma Perkins Mother's Day Special Four-Hour Eight Episode Special From September 1949 starring Virginia Payne",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Escape (7/5/53) -",
+          "show": "[THEME] Anne Baxter Birthday American Gallery 1960s",
+          "episode": ""
+        },
+        {
+          "time": "6:00 PM",
+          "show": "Suspense 2/20/47",
           "episode": ""
         },
         {
           "time": "6:30 PM",
-          "show": "A Source Of Irritation",
+          "show": "Charlie McCarthy 3/4/45",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "The Whistler 12/17/50",
-          "episode": ""
-        },
-        {
-          "time": "7:30 PM",
-          "show": "Murder By Experts 4/24/50",
+          "show": "Dennis Day Show 10/16/48",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "CBS Radio Workshop 8/4/57",
+          "show": "[THEME] Gary Cooper Birthday Lux Radio Theatre's",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "Eve Arden - Miss Brooks",
+          "show": "The Virginian 11/2/36",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "Babysitting 11/14/48",
+          "show": "On Bob Hope Show 1/4/44",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "Dress Code Protest 4/24/49",
-          "episode": ""
-        },
-        {
-          "time": "9:30 PM",
-          "show": "Faculty Cheerleader 9/18/49",
+          "show": "Charlie McCarthy Show 1/5/47",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Magazine Articles 4/17/55",
+          "show": "[THEME] Yours Truly, Johnny Dollar Marathon \"The Forbes Matter\" with Bob Bailey (Dec 1955)",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "[THEME] Yours Truly, Johnny Dollar Marathon July '56",
-          "episode": ""
-        },
-        {
-          "time": "10:00 PM",
-          "show": "The Midas Touch Matter with Bob Bailey",
-          "episode": ""
-        },
-        {
-          "time": "10:30 PM",
-          "show": "Johnny Dollar 10/14/50",
+          "show": "Escape Blood Bath 6/30/50",
           "episode": ""
         }
       ]
@@ -1324,122 +1299,137 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "Phil Harris & Alice Faye From Oct. 15th, 1950.",
+          "show": "Lux Radio Theatre's \"So Proudly We Hail\" From Nov 1st, 1942",
           "episode": ""
         },
         {
-          "time": "12:30 AM",
-          "show": "Red Skelton Show 3/4/49",
+          "time": "12:00 AM",
+          "show": "Texas Rangers 8/19/50",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "The Chase 2/1/53",
+          "show": "Jack Benny Prgm 3/9/52",
           "episode": ""
         },
         {
           "time": "1:30 AM",
-          "show": "Gunsmoke 10/31/53",
+          "show": "Harris & Faye Show 11/14/48",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "[THEME] Mary Astor's Birthday Campbell Playhouse's",
+          "show": "[THEME] Nurse's Day Tribute",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "The Hurricane 11/5/39",
+          "show": "Inheritance 4/11/54",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "In Suspense 2/16/43",
+          "show": "Arch Oboler's Plays 4/5/45",
           "episode": ""
         },
         {
           "time": "3:00 AM",
-          "show": "Johnny Dollar 12/30/56",
+          "show": "Dr. Kildare 5/17/50",
+          "episode": ""
+        },
+        {
+          "time": "3:30 AM",
+          "show": "Charlie McCarthy Show 9/9/45",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Fibber McGee & Molly From Oct 9th, 1945",
+          "show": "Tyrone Power Guests",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "Jack Benny Prgm 5/29/49",
+          "show": "on Jack Benny 12/4/49",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "Sam Spade 9/3/50",
+          "show": "Fibber McGee/Molly 4/10/45",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "Sherlock Holmes 2/17/47",
+          "show": "The Green Hornet 10/5/46",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "Hopalong Cassidy 10/27/51",
+          "show": "Escape \"Sure Thing\" 1/17/50",
+          "episode": ""
+        },
+        {
+          "time": "6:00 AM",
+          "show": "The Lineup 11/16/50",
           "episode": ""
         },
         {
           "time": "6:30 AM",
-          "show": "Hopalong Cassidy 12/29/51",
+          "show": "The Lineup 11/30/50",
           "episode": ""
         },
         {
           "time": "7:00 AM",
-          "show": "CBS Radio Workshop 4/7/57",
+          "show": "Fibber McGee & Molly 6/4/46",
           "episode": ""
         },
         {
           "time": "7:30 AM",
-          "show": "Behind The Mike 4/20/41",
+          "show": "Jack Benny Prgm 11/15/53",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "Sherlock Holmes From Feb 26th, 2006",
+          "show": "Let George Do It 6/6/49",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "Sherlock Holmes 1/30/55",
+          "show": "Richard Diamond 3/30/51",
           "episode": ""
         },
         {
           "time": "9:00 AM",
-          "show": "Duffy's Tavern 6/8/45",
+          "show": "Frank Race 11/7/49",
           "episode": ""
         },
         {
           "time": "9:30 AM",
-          "show": "The Life Of Riley 11/30/46",
+          "show": "Mr. Keen Tracer Of",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Red Skelton Show 3/19/50",
+          "show": "Lost Persons 8/3/51",
+          "episode": ""
+        },
+        {
+          "time": "10:00 AM",
+          "show": "Boston Blackie 12/10/46",
           "episode": ""
         },
         {
           "time": "10:30 AM",
-          "show": "Damon Runyon 10/10/49",
+          "show": "Peter Chambers 8/10/54",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "Life With Luigi 2/21/50",
+          "show": "Command Performance with Bogie & Bacall 8/30/45",
           "episode": ""
         },
         {
           "time": "11:30 AM",
-          "show": "The Great Gildersleeve From Nov. 23rd, 1941",
+          "show": "Bob Hope Grace Kelly 5/14/54",
           "episode": ""
         },
         {
@@ -1449,137 +1439,127 @@
         },
         {
           "time": "12:00 PM",
-          "show": "This Is Your FBI 10/12/51",
+          "show": "Sherlock Holmes 10/5/47",
           "episode": ""
         },
         {
           "time": "12:30 PM",
-          "show": "Johnny Dollar 10/4/56 Pt 1",
+          "show": "Johnny Dollar 10/5/56 Pt 5",
           "episode": ""
         },
         {
           "time": "1:00 PM",
-          "show": "The Saint 3/11/51",
+          "show": "Jeff Regan 9/11/48",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "The Weird Circle 11/26/44",
+          "show": "Suspense 4/7/52",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "Crime Classics -",
+          "show": "Harry Nile 12/12 2010",
           "episode": ""
         },
         {
           "time": "2:30 PM",
-          "show": "Old Six Toes 3/17/54",
+          "show": "Sherlock Holmes 2/13/2005",
           "episode": ""
         },
         {
           "time": "3:00 PM",
-          "show": "Romance..Ranchos 9/14/41",
+          "show": "Philip Marlowe 10/15/49",
           "episode": ""
         },
         {
           "time": "3:30 PM",
-          "show": "Gangbusters 7/31/48",
+          "show": "Story Of Dr. Kildare From April 12th, 1950",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Boston Blackie 9/10/46",
-          "episode": ""
-        },
-        {
-          "time": "4:00 PM",
-          "show": "Dragnet Hour",
+          "show": "Gunsmoke 6/27/53",
           "episode": ""
         },
         {
           "time": "4:30 PM",
-          "show": "Big Cab 9/15/53",
+          "show": "Gunsmoke 12/11/54",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "Big Lift 4/27/54",
+          "show": "Frontier Gentleman 6/29/58",
           "episode": ""
         },
         {
           "time": "5:30 PM",
-          "show": "This Is Your FBI 11/9/51",
+          "show": "Hawk Larabee (10/18/47) with Elliott Lewis",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Johnny Dollar 1/2 Hr 11/3/51",
+          "show": "[THEME] Ben Wright's Birthday",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "The Six Shooter 1/3/54",
+          "show": "Pursuit 11/20/51",
           "episode": ""
         },
         {
           "time": "6:30 PM",
-          "show": "Gunsmoke 7/22/56",
+          "show": "Suspense 7/3/56",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "The Lineup 7/27/50",
+          "show": "Crime Classics 3/31/54",
           "episode": ""
         },
         {
           "time": "7:30 PM",
-          "show": "FBI In Peace & War From Aug 2nd, 1951",
+          "show": "Have Gun, Will T…3/22/59",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "[THEME] Dan O'Herlihy Birthday",
-          "episode": ""
-        },
-        {
-          "time": "8:00 PM",
-          "show": "Escape 4/11/48",
+          "show": "Fibber McGee & Molly From April 4th, 1944",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "Suspense 5/31/59",
+          "show": "Great Gildersleeve 12/2/45",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "The Weird Circle 5/14/44",
+          "show": "Richard Diamond  8/2/53",
           "episode": ""
         },
         {
           "time": "9:30 PM",
-          "show": "The Whistler 10/22/45",
+          "show": "Richard Diamond 2/16/51",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "[THEME] Glenn Ford's Birthday Starring In Studio One's",
-          "episode": ""
-        },
-        {
-          "time": "10:00 PM",
-          "show": "\"The 39 Steps\" 3/23/48",
+          "show": "Great Gildersleeve Hour",
           "episode": ""
         },
         {
           "time": "10:30 PM",
-          "show": "& in Suspense 2/6/47",
+          "show": "Bronco Disappears 5/3/50",
           "episode": ""
         },
         {
           "time": "11:00 PM",
-          "show": "Frontier Fighters 1935",
+          "show": "Marjorie's Wedding 5/10/50",
+          "episode": ""
+        },
+        {
+          "time": "11:30 PM",
+          "show": "Dragnet Big Fall Guy 6/14/55",
           "episode": ""
         }
       ]
@@ -1590,92 +1570,82 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "Harry McNaughton B-Day",
+          "show": "[THEME] Frank Nelson Birthday",
           "episode": ""
         },
         {
           "time": "12:00 AM",
-          "show": "Jimmy Durante Show 4/21/48",
+          "show": "Jeff Regan 4/5/50",
           "episode": ""
         },
         {
           "time": "12:30 AM",
-          "show": "It's Higgins, Sir 7/3/51",
+          "show": "Jeff Regan 5/19/50",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "It's Higgins, Sir 9/6/51",
+          "show": "Jack Benny Prgm 1/19/47",
           "episode": ""
         },
         {
           "time": "1:30 AM",
-          "show": "Grand Marquee 7/9/46",
+          "show": "Jack Benny Prgm 10/17/48",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Couple Next Door 1/15/58",
+          "show": "[THEME] Orson Welles Birthday 2 Mercury Theatre's Count Of",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Sherlock Holmes 9/12/48",
+          "show": "Monte Cristo 8/29/38 and on Jack Benny 3/21/43",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "Suspense 7/30/61",
-          "episode": ""
-        },
-        {
-          "time": "3:00 AM",
-          "show": "Weird Circle's (9/26/43) -",
-          "episode": ""
-        },
-        {
-          "time": "3:30 AM",
-          "show": "\"Declared Insane\"",
+          "show": "O Welles Meets H.G. Wells",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "The Hermit's Cave 1940s",
-          "episode": ""
-        },
-        {
-          "time": "4:00 AM",
-          "show": "Ned Wever In 2 Episodes From Bulldog Drummond",
+          "show": "Stars Wars Day Special",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "12/27/47 & 6/6/48",
+          "show": "Report On We'an's 11/11/56 And Moon Be Still As..9/22/55",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "Gangbusters 8/16/52",
+          "show": "Beware Of Tomorrow 4/9/44",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "Mr. District Attorney 2/8/53",
+          "show": "Child's Play 10/20/55",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "Studio One's 79th Anniv Wuthering Heights From Sept. 30th, 1947",
+          "show": "[THEME] Orson Welles Birthday 1 Black Museum 1952",
+          "episode": ""
+        },
+        {
+          "time": "6:00 AM",
+          "show": "The Third Man 8/3/51",
           "episode": ""
         },
         {
           "time": "6:30 AM",
-          "show": "The Weird Circle 12/26/43",
+          "show": "Suspense 9/23/43",
           "episode": ""
         },
         {
           "time": "7:00 AM",
-          "show": "Lum and Abner 6/2/42",
+          "show": "Fred Allen Show 3/3/46",
           "episode": ""
         },
         {
@@ -1685,167 +1655,172 @@
         },
         {
           "time": "8:00 AM",
-          "show": "Our Miss Brooks 10/15/50",
+          "show": "Life Of Riley 9/6/47",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "Jack Benny 10/27/46 Pt 1",
+          "show": "Baby Snooks Show 4/25/40",
           "episode": ""
         },
         {
           "time": "9:00 AM",
-          "show": "Dimension X 7/12/51",
+          "show": "Rocky Jordan 4/3/49",
           "episode": ""
         },
         {
           "time": "9:30 AM",
-          "show": "The Whistler 7/16/47",
+          "show": "Richard Diamond 9/10/49",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Eve Arden - Miss Brooks",
+          "show": "[THEME] Gary Cooper Birthday Lux Radio Theatre's",
+          "episode": ""
+        },
+        {
+          "time": "10:00 AM",
+          "show": "The Virginian 11/2/36",
           "episode": ""
         },
         {
           "time": "10:30 AM",
-          "show": "Babysitting 11/14/48",
+          "show": "On Bob Hope Show 1/4/44",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "Dress Code Protest 4/24/49",
-          "episode": ""
-        },
-        {
-          "time": "11:30 AM",
-          "show": "Faculty Cheerleader 9/18/49",
+          "show": "Charlie McCarthy Show 1/5/47",
           "episode": ""
         },
         {
           "time": "12:00 PM",
-          "show": "Magazine Articles 4/17/55",
+          "show": "[THEME] Alice Faye's Birthday",
           "episode": ""
         },
         {
           "time": "12:00 PM",
-          "show": "Lionel Barrymore B-Day",
+          "show": "Harris & Faye 10/28/51",
           "episode": ""
         },
         {
           "time": "12:30 PM",
-          "show": "Mayor Of...Town 9/13/42",
+          "show": "Harris & Faye 4/20/52",
           "episode": ""
         },
         {
           "time": "1:00 PM",
-          "show": "Dr. Kildare 6/29/50",
+          "show": "Harris & Faye 3/19/50",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "Request Perform..12/7/46",
+          "show": "Screen Guild Thtr 3/29/46",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "Harris & Faye Show 11/9/52",
+          "show": "[THEME] Yours Truly, Johnny Dollar Marathon \"The Forbes Matter\" with Bob Bailey (Dec 1955)",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "[THEME] Yours Truly, Johnny Dollar Marathon July '56",
-          "episode": ""
-        },
-        {
-          "time": "2:00 PM",
-          "show": "The Midas Touch Matter with Bob Bailey",
-          "episode": ""
-        },
-        {
-          "time": "2:30 PM",
-          "show": "Johnny Dollar 10/14/50",
+          "show": "Escape Blood Bath 6/30/50",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Burns & Allen Show with Brian Aherne 3/28/44",
-          "episode": ""
-        },
-        {
-          "time": "4:30 PM",
-          "show": "Duffy's Tavern 9/21/50",
+          "show": "Two From Dragnet",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "The Saint 7/9/50",
+          "show": "Big Pleas 10/13/53",
           "episode": ""
         },
         {
           "time": "5:30 PM",
-          "show": "Sherlock Holmes 9/28/47",
+          "show": "Big Pipe 2/23/54",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Quiet Please 8/2/48",
+          "show": "Jack Benny Prgm 10/23/38",
+          "episode": ""
+        },
+        {
+          "time": "6:00 PM",
+          "show": "Broadway Is My Beat",
           "episode": ""
         },
         {
           "time": "6:30 PM",
-          "show": "Murder At Midnight 9/27/46",
+          "show": "Charlie McCarthy 2/4/45",
+          "episode": ""
+        },
+        {
+          "time": "6:30 PM",
+          "show": "Ruth Shay Case 5/30/53",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "Box 13 Alan Ladd 5/22/49",
+          "show": "21st Precinct 7/21/53",
           "episode": ""
         },
         {
           "time": "7:30 PM",
-          "show": "Casey, Crime Photographer From Apr. 17th, 1947",
+          "show": "The Lineup 2/22/51",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "First & Finale Special",
+          "show": "Police Headquarters 1932",
+          "episode": ""
+        },
+        {
+          "time": "8:00 PM",
+          "show": "First & Finale Special Chase & Sanborn Hour",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "Jack Benny Debut 5/2/32",
+          "show": "1st With E. Bergen 5/9/37",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "Jack Benny Last 5/22/55",
+          "show": "Then Final Show 12/26/48",
           "episode": ""
         },
         {
           "time": "9:30 PM",
-          "show": "Ford Theater - Horn Blows Bill Stern Sports News",
+          "show": "Two From Vic & Sade",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Rosemary Rice In",
+          "show": "[THEME] Mike Wallace Birthday",
+          "episode": ""
+        },
+        {
+          "time": "10:00 PM",
+          "show": "Sky King 7/23/47",
           "episode": ""
         },
         {
           "time": "10:30 PM",
-          "show": "Suspense 2/25/62",
+          "show": "Green Hornet 9/5/44",
           "episode": ""
         },
         {
           "time": "11:00 PM",
-          "show": "Suspense 7/2/61",
+          "show": "Meet The Meeks 1/24/48",
           "episode": ""
         },
         {
           "time": "11:30 PM",
-          "show": "Archie Andrews 10/19/46",
+          "show": "Baby Snooks & Daddy",
           "episode": ""
         }
       ]
