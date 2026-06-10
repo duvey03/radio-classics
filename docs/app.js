@@ -61,10 +61,29 @@
     document.documentElement.setAttribute('data-theme', 'dark');
 
     setupEventListeners();
+    hideInstallTipIfStandalone();
     loadSchedule();
 
     // Update "what's on now" every minute
     setInterval(updateWhatsOnNow, 60000);
+  }
+
+  /**
+   * Hide the "add to home screen" tip when the page is already running as an
+   * installed app. CSS handles this via the display-mode media query; this
+   * also covers iOS Safari's legacy navigator.standalone flag.
+   */
+  function hideInstallTipIfStandalone() {
+    const installTip = document.getElementById('install-tip');
+    if (!installTip) return;
+
+    const isStandalone =
+      window.matchMedia('(display-mode: standalone)').matches ||
+      window.navigator.standalone === true;
+
+    if (isStandalone) {
+      installTip.hidden = true;
+    }
   }
 
   /**

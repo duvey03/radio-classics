@@ -595,6 +595,63 @@ footer a:focus {
   opacity: 0.8;
 }
 
+/* Collapsible "add to home screen" tip */
+.install-tip {
+  max-width: 32rem;
+  margin: 0 auto var(--space-6);
+  text-align: left;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--space-3);
+  padding: 0 var(--space-5);
+}
+
+.install-tip summary {
+  cursor: pointer;
+  padding: var(--space-4) 0;
+  font-weight: 600;
+  color: var(--text-secondary);
+  list-style-position: inside;
+}
+
+.install-tip summary:hover {
+  color: var(--accent-primary);
+}
+
+.install-tip summary:focus-visible {
+  outline: 2px solid var(--focus-outline);
+  outline-offset: 2px;
+  border-radius: var(--space-1);
+}
+
+[data-theme="dark"] .install-tip summary:hover {
+  color: var(--accent-gold);
+}
+
+.install-tip-body {
+  padding-bottom: var(--space-4);
+  line-height: var(--line-height-relaxed);
+}
+
+.install-tip-body p {
+  margin: var(--space-2) 0;
+}
+
+.install-platform {
+  font-size: var(--font-size-sm);
+}
+
+/* Hide the tip once the page is launched as an installed app */
+@media (display-mode: standalone) {
+  .install-tip {
+    display: none;
+  }
+}
+
+.install-tip[hidden] {
+  display: none;
+}
+
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 12px;
