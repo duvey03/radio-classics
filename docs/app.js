@@ -93,6 +93,16 @@
     showSearch.addEventListener('input', debounce(handleSearch, 300));
     clearSearchBtn.addEventListener('click', clearSearch);
 
+    // Click "now playing" or a "coming up" entry to jump to that slot in the table
+    whatsOnNow.addEventListener('click', handleNowPlayingClick);
+    whatsOnNow.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        handleNowPlayingClick();
+      }
+    });
+    comingUp.addEventListener('click', handleComingUpClick);
+
     // Keyboard shortcut: Escape to clear search
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape' && currentSearchTerm) {
@@ -100,6 +110,58 @@
         showSearch.focus();
       }
     });
+  }
+
+  /**
+   * Scroll the table cell for a given day/time into view and briefly flash it.
+   */
+  function scrollToSlot(day, time) {
+    if (!day || !time) return;
+
+    const normalizedTime = normalizeTime(time);
+    const cells = document.querySelectorAll(`#schedule-table td[data-day="${day}"]`);
+
+    let target = null;
+    cells.forEach(cell => {
+      if (normalizeTime(cell.dataset.time) === normalizedTime) {
+        target = cell;
+      }
+    });
+    if (!target) return;
+
+    const prefersReducedMotion =
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    target.scrollIntoView({
+      behavior: prefersReducedMotion ? 'auto' : 'smooth',
+      block: 'center',
+      inline: 'center'
+    });
+
+    // Restart the flash animation even if the same cell is clicked twice
+    target.classList.remove('slot-flash');
+    void target.offsetWidth;
+    target.classList.add('slot-flash');
+    target.addEventListener('animationend', function handler() {
+      target.classList.remove('slot-flash');
+      target.removeEventListener('animationend', handler);
+    });
+  }
+
+  /**
+   * Jump to the currently playing show in the table.
+   */
+  function handleNowPlayingClick() {
+    scrollToSlot(whatsOnNow.dataset.day, whatsOnNow.dataset.time);
+  }
+
+  /**
+   * Jump to a "coming up" show when its entry is clicked.
+   */
+  function handleComingUpClick(e) {
+    const btn = e.target.closest('.coming-up-jump');
+    if (!btn) return;
+    scrollToSlot(btn.dataset.day, btn.dataset.time);
   }
 
   /**
@@ -307,6 +369,7 @@
   function updateWhatsOnNow() {
     if (!scheduleData?.schedule) {
       whatsOnNow.textContent = '';
+      clearNowPlayingClickable();
       comingUp.innerHTML = '';
       return;
     }
@@ -318,6 +381,7 @@
     const daySchedule = scheduleData.schedule.find(d => d.day === currentDay);
     if (!daySchedule?.slots || daySchedule.slots.length === 0) {
       whatsOnNow.textContent = '';
+      clearNowPlayingClickable();
       comingUp.innerHTML = '';
       return;
     }
@@ -338,6 +402,7 @@
 
     if (currentShow) {
       whatsOnNow.textContent = `[NOW PLAYING] ${currentShow} (started at ${currentShowTime} ET)`;
+      setNowPlayingClickable(currentDay, currentShowTime);
       highlightCurrentSlot(currentDay, currentShowTime);
 
       const upcomingShows = [];
@@ -348,7 +413,11 @@
       if (upcomingShows.length > 0) {
         let html = '<p class="coming-up-label">Coming Up:</p><ul class="coming-up-list">';
         upcomingShows.forEach(slot => {
-          html += `<li><span class="coming-up-time">${escapeHtml(slot.time)}</span> ${escapeHtml(slot.show)}</li>`;
+          html += `<li><button type="button" class="coming-up-jump" ` +
+                  `data-day="${escapeHtml(currentDay)}" data-time="${escapeHtml(slot.time)}" ` +
+                  `title="Jump to this show in the schedule below">` +
+                  `<span class="coming-up-time">${escapeHtml(slot.time)}</span> ${escapeHtml(slot.show)}` +
+                  `</button></li>`;
         });
         html += '</ul>';
         comingUp.innerHTML = html;
@@ -357,8 +426,35 @@
       }
     } else {
       whatsOnNow.textContent = '';
+      clearNowPlayingClickable();
       comingUp.innerHTML = '';
     }
+  }
+
+  /**
+   * Make the "now playing" banner behave as a button that jumps to the
+   * current slot. Stores the target on data attributes for the click handler.
+   */
+  function setNowPlayingClickable(day, time) {
+    whatsOnNow.dataset.day = day;
+    whatsOnNow.dataset.time = time;
+    whatsOnNow.classList.add('clickable');
+    whatsOnNow.setAttribute('role', 'button');
+    whatsOnNow.setAttribute('tabindex', '0');
+    whatsOnNow.setAttribute('title', 'Jump to this show in the schedule below');
+  }
+
+  /**
+   * Remove the clickable behavior from the "now playing" banner (e.g. overnight
+   * when nothing is on).
+   */
+  function clearNowPlayingClickable() {
+    delete whatsOnNow.dataset.day;
+    delete whatsOnNow.dataset.time;
+    whatsOnNow.classList.remove('clickable');
+    whatsOnNow.removeAttribute('role');
+    whatsOnNow.removeAttribute('tabindex');
+    whatsOnNow.removeAttribute('title');
   }
 
   /**

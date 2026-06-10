@@ -308,6 +308,21 @@ main {
   display: none;
 }
 
+.now-playing.clickable {
+  cursor: pointer;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.now-playing.clickable:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.now-playing.clickable:focus-visible {
+  outline: 3px solid var(--accent-gold);
+  outline-offset: 3px;
+}
+
 /* Coming Up Section */
 .coming-up {
   margin-top: var(--space-6);
@@ -340,16 +355,36 @@ main {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
-  padding: var(--space-3) var(--space-5);
   font-size: var(--font-size-sm);
   box-shadow: var(--shadow-sm);
   transition: all var(--transition-base);
+  overflow: hidden;
 }
 
 .coming-up-list li:hover {
   border-color: var(--accent-gold);
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+}
+
+/* The whole card is a button that jumps to the show in the table */
+.coming-up-jump {
+  display: block;
+  width: 100%;
+  padding: var(--space-3) var(--space-5);
+  background: none;
+  border: none;
+  border-radius: inherit;
+  font: inherit;
+  font-size: inherit;
+  color: var(--text-secondary);
+  text-align: left;
+  cursor: pointer;
+}
+
+.coming-up-jump:focus-visible {
+  outline: 3px solid var(--accent-gold);
+  outline-offset: 2px;
 }
 
 .coming-up-time {
@@ -482,6 +517,22 @@ main {
   bottom: 0;
   width: 4px;
   background: var(--gradient-gold);
+}
+
+/* Brief flash when a cell is jumped to from "now playing" / "coming up" */
+.slot-flash {
+  animation: slot-flash 1.6s ease-out;
+}
+
+@keyframes slot-flash {
+  0%, 30% {
+    background: linear-gradient(135deg, rgba(218, 165, 32, 0.55) 0%, rgba(184, 134, 11, 0.45) 100%);
+    box-shadow: inset 0 0 0 2px var(--accent-gold);
+  }
+  100% {
+    background: transparent;
+    box-shadow: none;
+  }
 }
 
 /* Search Highlight */
