@@ -25,6 +25,33 @@ That's also why the page leans hard on accessibility - big text, high contrast,
 semantic markup, and screen-reader support - so it stays usable for anyone who finds
 the schedule as hard to read as he did.
 
+## Add it to your phone (like an app)
+
+You can save the page to your home screen so it opens with one tap, full-screen, just
+like a real app. There's nothing to install from an app store.
+
+First, open the live site in your phone's browser:
+**https://duvey03.github.io/radio-classics/**
+
+**iPhone / iPad (Safari)**
+
+1. Tap the **Share** button (the square with an arrow pointing up) at the bottom of the
+   screen.
+2. Scroll down and tap **Add to Home Screen**.
+3. Tap **Add** in the top-right corner.
+
+An icon now appears on your home screen. Tap it any time to see the schedule.
+
+**Android (Chrome)**
+
+1. Tap the **three-dot menu** (three vertical dots) in the top-right corner.
+2. Tap **Add to Home screen** (it may say **Install app**).
+3. Tap **Add**, then confirm.
+
+The icon appears on your home screen, and you can move it anywhere you like.
+
+> Tip: it works just like any other app afterward - no need to remember a web address.
+
 ## Features
 
 - **Always current** - a GitHub Action re-fetches the schedule on a cron and commits
