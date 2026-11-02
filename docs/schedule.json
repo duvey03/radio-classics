@@ -1,7 +1,7 @@
 {
-  "week_start": "2026-10-26",
-  "week_end": "2026-11-01",
-  "last_updated": "2026-11-01T17:15:38.221511Z",
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "last_updated": "2026-11-02T20:53:37.757210Z",
   "schedule": [
     {
       "day": "Sunday",
@@ -9,212 +9,207 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "\"Donovan's Brain\" Suspense Orson Welles from May 18th, 1944",
+          "show": "[THEME] Frank Readick Birthday",
           "episode": ""
         },
         {
           "time": "12:00 AM",
-          "show": "Lights Out What..Devil 10/6/42",
+          "show": "Mysterious Traveler 3/29/49",
           "episode": ""
         },
         {
           "time": "12:30 AM",
-          "show": "Escape (E.A. Poe) 10/22/47",
+          "show": "Murder At Midnight 11/4/46",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "Lights Out-Execution 4/27/43",
+          "show": "Gangbusters 11/27/48",
+          "episode": ""
+        },
+        {
+          "time": "1:30 AM",
+          "show": "Broadway's My Beat 11/3/50",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Lights...Poltergeist 10/20/42",
+          "show": "The Aldrich Family 11/16/45",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "Dark Fantasy 4/3/42",
+          "show": "Fibber McGee & Molly 2/24/48",
           "episode": ""
         },
         {
           "time": "3:00 AM",
-          "show": "The Life Of Riley 10/29/44",
+          "show": "2000 Plus 10/10/51",
           "episode": ""
         },
         {
           "time": "3:30 AM",
-          "show": "My Favorite Husband From Oct. 28th, 1949",
+          "show": "X Minus One 4/24/56",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Susp - Ghost Hunt 6/23/49",
+          "show": "Sam Spade 7/10/49",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "Inner Sanctum's",
+          "show": "Philip Marlowe 6/21/50",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "The Wailing Wall 11/6/45",
+          "show": "Richard Diamond 3/14/52",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "Weird Circle (New) 5/13/45",
+          "show": "Boston Blackie 5/28/47",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "Sealed Book (New) 1/12/45",
-          "episode": ""
-        },
-        {
-          "time": "6:00 AM",
-          "show": "Inner Sanctum Mysteries",
+          "show": "The Great Gildersleeve",
           "episode": ""
         },
         {
           "time": "6:30 AM",
-          "show": "Terror By Night 9/18/45",
+          "show": "War Bond Drive 9/12/43",
           "episode": ""
         },
         {
           "time": "7:00 AM",
-          "show": "The Hermit's Cave 1940s",
+          "show": "Our Miss Brooks 3/11/51",
           "episode": ""
         },
         {
           "time": "7:30 AM",
-          "show": "Witch's- Frankenstein 8/3/31",
+          "show": "Dennis Day Show 4/18/46",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "The Hermit's Cave 1940s",
+          "show": "Couple Next Door 12/5/58",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "Imagination Theatre",
+          "show": "Night Beat (2/27/50) -",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "The Curse Of The Mummy Lawrence Albert 10/25 2009",
+          "show": "\"Girl In The Park\"",
           "episode": ""
         },
         {
           "time": "9:00 AM",
-          "show": "Quiet, Please 10/17/48",
+          "show": "The Whistler 8/6/47",
           "episode": ""
         },
         {
           "time": "9:30 AM",
-          "show": "Quiet, Please 4/17/49",
+          "show": "The Falcon 8/21/52",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Halloween Humor",
+          "show": "Calling All Cars 8/11/37",
+          "episode": ""
+        },
+        {
+          "time": "10:00 AM",
+          "show": "Command Performance",
           "episode": ""
         },
         {
           "time": "10:30 AM",
-          "show": "Ozzie & Harriet 10/31/48",
+          "show": "Kay Kyser…4/1/42",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "Archie Andrews 10/30/48",
+          "show": "Fibber McGee/Molly 2/11/47",
           "episode": ""
         },
         {
           "time": "11:30 AM",
-          "show": "Great Gildersleeve 10/31/51",
+          "show": "Green Hornet 11/11/46",
           "episode": ""
         },
         {
           "time": "12:00 PM",
-          "show": "Father Knows Best 10/29/53",
+          "show": "Green Hornet 9/19/42",
           "episode": ""
         },
         {
           "time": "12:00 PM",
-          "show": "Halloween Humor",
+          "show": "Night Watch 10/14/54",
           "episode": ""
         },
         {
           "time": "12:30 PM",
-          "show": "Jack Carson 10/30/46",
+          "show": "Dragnet Big Cat 6/15/54",
           "episode": ""
         },
         {
           "time": "1:00 PM",
-          "show": "Our Miss Brooks 10/30/49",
+          "show": "X Minus One (New) 6/26/56",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "Lights Out 10/13/42",
+          "show": "Beyond Tomorrow's",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "Lights Out 2/23/43",
+          "show": "\"Outer Limit\" 4/13/50",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "Lights Out Hour",
+          "show": "[THEME] Yours Truly, Johnny Dollar Marathon Aug 1956",
+          "episode": ""
+        },
+        {
+          "time": "2:00 PM",
+          "show": "The Crystal Lake Matter with Bob Bailey",
           "episode": ""
         },
         {
           "time": "2:30 PM",
-          "show": "Knock At The Door 12/15/42",
-          "episode": ""
-        },
-        {
-          "time": "3:00 PM",
-          "show": "Murder Castle 8/3/43",
-          "episode": ""
-        },
-        {
-          "time": "3:30 PM",
-          "show": "\"The Shadow People\" 9/21/53",
+          "show": "Let George Do It 7/3/50",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Thing..Fourble Board 8/9/48",
-          "episode": ""
-        },
-        {
-          "time": "4:00 PM",
-          "show": "Escape 8/9/53",
+          "show": "Norman MacDonnell B-Day",
           "episode": ""
         },
         {
           "time": "4:30 PM",
-          "show": "\"Three Skeleton Key!\"",
+          "show": "Gunsmoke 11/14/53",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "Inner Sanctum 10/18/48",
+          "show": "Philip Marlowe 11/28/48",
           "episode": ""
         },
         {
           "time": "5:30 PM",
-          "show": "Lights Out 9/7/43",
+          "show": "Honest Harold 11/8/50",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Molle Mystery 6/5/45",
+          "show": "Red Skelton Show 11/25/47",
           "episode": ""
         },
         {
@@ -224,62 +219,67 @@
         },
         {
           "time": "6:00 PM",
-          "show": "Duffy's Tavern 11/30/51 Pt 2",
+          "show": "Fibber McGee 10/29/40 Pt 2",
           "episode": ""
         },
         {
           "time": "6:30 PM",
-          "show": "Barrie Craig 5/12/55",
+          "show": "Have Gun, Will Trav..1/3/60",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "The Clock 12/11/47",
+          "show": "Let George Do It 10/9/50",
           "episode": ""
         },
         {
           "time": "7:30 PM",
-          "show": "Dark Fantasy 5/29/42",
+          "show": "The Whistler 11/15/42",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "Orson Welles - \"Dracula\" Hour of Mercury Theatre",
+          "show": "Norman Lloyd In",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "On The Air 7/11/38",
+          "show": "Suspense 5/24/45",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "\"Frankenstein\" 6/7/55",
+          "show": "The Whistler 12/3/45",
           "episode": ""
         },
         {
           "time": "9:30 PM",
-          "show": "Jack Benny Trick Or Treat",
+          "show": "Molle Mystery 3/8/46",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Suspense (12/5/46) -",
+          "show": "Dimension X 9/8/49",
+          "episode": ""
+        },
+        {
+          "time": "10:00 PM",
+          "show": "Gunsmoke 12/27/52",
           "episode": ""
         },
         {
           "time": "10:30 PM",
-          "show": "House In Cypress Canyon",
+          "show": "Gunsmoke 4/9/55",
           "episode": ""
         },
         {
           "time": "11:00 PM",
-          "show": "Mercury-Hitchhiker 6/21/46",
+          "show": "Fort Laramie 5/27/56",
           "episode": ""
         },
         {
           "time": "11:30 PM",
-          "show": "Dark Fantasy 3/20/42",
+          "show": "Escape \"Elementals\" From Oct. 11th, 1953",
           "episode": ""
         }
       ]
@@ -290,137 +290,137 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "Suspense H.P. Lovecraft's",
-          "episode": ""
-        },
-        {
-          "time": "12:00 AM",
-          "show": "The Aldrich Family 10/31/40",
+          "show": "Art Carney B-Day Special",
           "episode": ""
         },
         {
           "time": "12:30 AM",
-          "show": "Dunwich Horror 11/2/45",
+          "show": "The Big Story 5/19/48",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "Murder At Midnight 3/10/47",
+          "show": "Escape (Audition) 3/21/47",
           "episode": ""
         },
         {
           "time": "1:30 AM",
-          "show": "Mysterious Traveler 2/16/44",
+          "show": "Gangbusters 11/26/49",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Hermit's Cave \"The Desert\"",
+          "show": "Crime Club 5/22/47",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Halloween Humor",
+          "show": "Night Watch 10/14/54",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "Jack Carson 10/30/46",
+          "show": "Dragnet Big Cat 6/15/54",
           "episode": ""
         },
         {
           "time": "3:00 AM",
-          "show": "Our Miss Brooks 10/30/49",
+          "show": "X Minus One (New) 6/26/56",
           "episode": ""
         },
         {
           "time": "3:30 AM",
-          "show": "Lights Out 10/13/42",
+          "show": "Beyond Tomorrow's",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Lights Out 2/23/43",
+          "show": "\"Outer Limit\" 4/13/50",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Imagination Theatre",
+          "show": "Escape (Western)",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "The Heart Of Frankenstein with Lauren Tewes 9/16 2007",
+          "show": "\"Wild Jack Rhett\" 12/17/50",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "Fibber McGee/Molly 10/24/39",
+          "show": "Texas Rangers 12/10/50",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "Fibber McGee/Molly 10/30/53",
+          "show": "Red Skelton Show 5/11/47",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "\"Donovan's Brain\" Suspense Orson Welles from May 18th, 1944",
+          "show": "Baby Snooks Show 2/8/40",
+          "episode": ""
+        },
+        {
+          "time": "6:00 AM",
+          "show": "[THEME] Frank Readick Birthday",
+          "episode": ""
+        },
+        {
+          "time": "6:00 AM",
+          "show": "Mysterious Traveler 3/29/49",
           "episode": ""
         },
         {
           "time": "6:30 AM",
-          "show": "Escape (E.A. Poe) 10/22/47",
+          "show": "Murder At Midnight 11/4/46",
           "episode": ""
         },
         {
           "time": "7:00 AM",
-          "show": "Lights Out-Execution 4/27/43",
+          "show": "Gangbusters 11/27/48",
+          "episode": ""
+        },
+        {
+          "time": "7:30 AM",
+          "show": "Broadway's My Beat 11/3/50",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "2000 Plus - Insect 8/15/51",
+          "show": "Fort Laramie 10/28/56",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "Dark Fantasy 1/30/42",
+          "show": "Have Gun, Will Trav 7/19/59",
           "episode": ""
         },
         {
           "time": "9:00 AM",
-          "show": "The Witch's Tale 10/12/37",
+          "show": "Charlie McCarthy 4/18/43",
           "episode": ""
         },
         {
           "time": "9:30 AM",
-          "show": "The Hermit's Cave (1940s) \"House Of Purple Shadows\"",
+          "show": "Jack Benny Program (1/7/40) With Barbara Stanwyck",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Halloween Humor",
-          "episode": ""
-        },
-        {
-          "time": "10:30 AM",
-          "show": "Charlie McCarthy 10/28/45",
+          "show": "Lux Radio Theatre's Here Comes Mr Jordan from Jan. 26th, 1942",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "Father Knows Best 10/26/50",
+          "show": "FBI Peace & War 9/15/49",
           "episode": ""
         },
         {
           "time": "11:30 AM",
-          "show": "Escape H.G. Wells 10/29/47",
-          "episode": ""
-        },
-        {
-          "time": "12:00 PM",
-          "show": "Molle's Lady...Morgue 5/15/45",
+          "show": "I Was Commie/FBI 1/14/53",
           "episode": ""
         },
         {
@@ -430,122 +430,137 @@
         },
         {
           "time": "12:00 PM",
-          "show": "Duffy's Tavern 6/15/49",
+          "show": "Great Gildersleeve 10/19/41",
           "episode": ""
         },
         {
           "time": "12:30 PM",
-          "show": "Lum and Abner 8/5/43",
+          "show": "Couple Next Door 12/30/58",
           "episode": ""
         },
         {
           "time": "1:00 PM",
-          "show": "The Clock 12/11/47",
+          "show": "Let George Do It 10/9/50",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "Dark Fantasy 5/29/42",
+          "show": "The Whistler 11/15/42",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "Orson Welles - \"Dracula\" Hour of Mercury Theatre",
+          "show": "Norman Lloyd In",
           "episode": ""
         },
         {
           "time": "2:30 PM",
-          "show": "On The Air 7/11/38",
+          "show": "Suspense 5/24/45",
           "episode": ""
         },
         {
           "time": "3:00 PM",
-          "show": "\"Frankenstein\" 6/7/55",
+          "show": "The Whistler 12/3/45",
           "episode": ""
         },
         {
           "time": "3:30 PM",
-          "show": "Jack Benny Trick Or Treat",
+          "show": "Molle Mystery 3/8/46",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "A. Moorehead Suspense",
+          "show": "Dimension X 9/8/49",
+          "episode": ""
+        },
+        {
+          "time": "4:00 PM",
+          "show": "Shirley Mitchell's B-Day",
           "episode": ""
         },
         {
           "time": "4:30 PM",
-          "show": "Evil of Adelaide... 9/10/51",
+          "show": "CBS Radio Work 6/16/57",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "...Saphronia Winters 4/27/43",
+          "show": "Let George Do It 9/18/50",
           "episode": ""
         },
         {
           "time": "5:30 PM",
-          "show": "Sorry Wrong N...10/20/57",
+          "show": "Leila on Great Gildy 5/12/46",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Susp-Fugue C-Minor 6/1/44",
+          "show": "Alice on Fibber Mc 6/20/44",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Imagination Theatre They Dwell In Dark Places (2005) J.P. Lowrie L. Albert",
+          "show": "Two From Dr. Christian for Series 89th Anniv.",
           "episode": ""
         },
         {
-          "time": "6:30 PM",
-          "show": "The Signal Man 12/18 2005 Shadow/Stacks 10/29 2006",
+          "time": "7:00 PM",
+          "show": "11/7/37 & 12/20/38",
+          "episode": ""
+        },
+        {
+          "time": "7:30 PM",
+          "show": "Dr. Kildare 8/17/50",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "Edgar A. Poe - The Weird",
+          "show": "Suspense O. Welles 5/4/44",
+          "episode": ""
+        },
+        {
+          "time": "8:00 PM",
+          "show": "[THEME] Burt Lancaster Birthday",
+          "episode": ""
+        },
+        {
+          "time": "8:00 PM",
+          "show": "Scrn - Criss Cross 10/10/49",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "Circle \"Ligeia\" 11/12/44",
+          "show": "Suspense Big Shot 9/9/48",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "\"The Oblong Box\" 2/18/45",
+          "show": "Bob Hope Show 11/13/53",
           "episode": ""
         },
         {
           "time": "9:30 PM",
-          "show": "Inner Sanctum 4/15/44",
+          "show": "Fibber McGee/Molly 10/16/45",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "2 Strange Dr. Weird 1945",
-          "episode": ""
-        },
-        {
-          "time": "10:00 PM",
-          "show": "\"Pit & The Pendulum\"",
+          "show": "Dark Fantasy 3/6/42",
           "episode": ""
         },
         {
           "time": "10:30 PM",
-          "show": "on Suspense 11/19/57",
+          "show": "X-Minus One 7/14/55",
           "episode": ""
         },
         {
           "time": "11:00 PM",
-          "show": "Haunting Hour (New) 5/13/46",
+          "show": "Academy Award Thtr 10/9/46",
           "episode": ""
         },
         {
           "time": "11:30 PM",
-          "show": "Fred Allen w Karloff 11/18/45",
+          "show": "Dennis Day Show From March 24th, 1948",
           "episode": ""
         }
       ]
@@ -556,162 +571,122 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "Escape 8/9/53",
-          "episode": ""
-        },
-        {
-          "time": "12:00 AM",
-          "show": "Dark Fantasy 2/13/42",
+          "show": "Norman MacDonnell B-Day",
           "episode": ""
         },
         {
           "time": "12:30 AM",
-          "show": "\"Three Skeleton Key!\"",
-          "episode": ""
-        },
-        {
-          "time": "12:30 AM",
-          "show": "Lights Out-Cat Wife 4/6/38",
+          "show": "Gunsmoke 11/14/53",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "Inner Sanctum 10/18/48",
+          "show": "Philip Marlowe 11/28/48",
           "episode": ""
         },
         {
           "time": "1:30 AM",
-          "show": "Lights Out 9/7/43",
+          "show": "Honest Harold 11/8/50",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Molle Mystery 6/5/45",
+          "show": "Red Skelton Show 11/25/47",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Murder At Midnite 6/21/46",
+          "show": "Roy Roger's B-Day Spcl",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "\"Terror Out Of Space\"",
+          "show": "on G.I. Journal 10/20/44",
           "episode": ""
         },
         {
           "time": "3:00 AM",
-          "show": "Dark Fantasy 12/19/41",
+          "show": "on Bob Hope Show 6/10/52",
           "episode": ""
         },
         {
           "time": "3:30 AM",
-          "show": "The Clock 11/27/47",
+          "show": "Roy Rogers Show 11/9/51",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Haunting Hour (New) 12/10/45",
+          "show": "Blair Of The Mounties 1930s",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Inner Sanctum Mysteries",
+          "show": "The Great Gildersleeve",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "Terror By Night 9/18/45",
+          "show": "War Bond Drive 9/12/43",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "The Hermit's Cave 1940s",
+          "show": "Our Miss Brooks 3/11/51",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "Witch's- Frankenstein 8/3/31",
+          "show": "Dennis Day Show 4/18/46",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "The Hermit's Cave 1940s",
+          "show": "Couple Next Door 12/5/58",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "The Weird Circle (1/30/44)",
+          "show": "[THEME] Joel McCrea's Birthday Three Tales Of The Texas Rangers - Clean Up, Death By Adoption & Death Plant",
           "episode": ""
         },
         {
-          "time": "6:30 AM",
-          "show": "\"The Tell-Tale Heart\"",
-          "episode": ""
-        },
-        {
-          "time": "7:00 AM",
-          "show": "Lights/Death Robbery 7/16/47",
-          "episode": ""
-        },
-        {
-          "time": "7:30 AM",
-          "show": "Hall Of Fantasy(E. Poe)1/1/53",
+          "time": "6:00 AM",
+          "show": "Gunsmoke Letter/Law 7/15/56",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "Escape \"Yeti\" 9/13/53",
-          "episode": ""
-        },
-        {
-          "time": "8:00 AM",
-          "show": "Inner Sanctum Mysteries",
+          "show": "Broadway's My Beat From June 2nd, 1952",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "The Undead 12/18/45",
+          "show": "Dragnet Big Walk 11/16/52",
           "episode": ""
         },
         {
           "time": "9:00 AM",
-          "show": "The Sealed Book 5/6/45",
+          "show": "The Life Of Riley 3/20/48",
           "episode": ""
         },
         {
           "time": "9:30 AM",
-          "show": "Abbott & Costello 5/8/47",
+          "show": "Burns & Allen Show 1/27/41",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Great Gildersleeve 4/20/49",
+          "show": "[THEME] Yours Truly, Johnny Dollar Marathon Aug 1956",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Lights Out Hour",
+          "show": "The Crystal Lake Matter with Bob Bailey",
           "episode": ""
         },
         {
           "time": "10:30 AM",
-          "show": "Knock At The Door 12/15/42",
-          "episode": ""
-        },
-        {
-          "time": "11:00 AM",
-          "show": "Murder Castle 8/3/43",
-          "episode": ""
-        },
-        {
-          "time": "11:30 AM",
-          "show": "\"The Shadow People\" 9/21/53",
-          "episode": ""
-        },
-        {
-          "time": "12:00 PM",
-          "show": "Thing..Fourble Board 8/9/48",
+          "show": "Let George Do It 7/3/50",
           "episode": ""
         },
         {
@@ -721,132 +696,132 @@
         },
         {
           "time": "12:00 PM",
-          "show": "Broadway's My Beat 1/31/53",
+          "show": "Michael Shayne 10/23/48",
           "episode": ""
         },
         {
           "time": "12:30 PM",
-          "show": "Mary Foster, Editor's….1940s",
+          "show": "Mary Foster, Editor's..1940s",
           "episode": ""
         },
         {
           "time": "1:00 PM",
-          "show": "Quiet Please 10/31/48",
+          "show": "The Weird Circle 11/19/44",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "Leinengen Vs Ants 8/4/49",
+          "show": "Night Beat 8/7/52",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "Imagination Theatre",
+          "show": "Night Beat (2/27/50) -",
           "episode": ""
         },
         {
           "time": "2:30 PM",
-          "show": "The Curse Of The Mummy Lawrence Albert 10/25 2009",
+          "show": "\"Girl In The Park\"",
           "episode": ""
         },
         {
           "time": "3:00 PM",
-          "show": "Quiet, Please 10/17/48",
+          "show": "The Whistler 8/6/47",
           "episode": ""
         },
         {
           "time": "3:30 PM",
-          "show": "Quiet, Please 4/17/49",
+          "show": "The Falcon 8/21/52",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Lights Out 11/17/42",
+          "show": "Calling All Cars 8/11/37",
+          "episode": ""
+        },
+        {
+          "time": "4:00 PM",
+          "show": "Jack Benny Program (Hour) Buck Benny Rides Again",
           "episode": ""
         },
         {
           "time": "4:30 PM",
-          "show": "Suspense's (7/29/48)",
+          "show": "11/15/36 and 11/22/36",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "\"Yellow Wallpaper\"",
+          "show": "Boston Blackie 4/30/46",
           "episode": ""
         },
         {
           "time": "5:30 PM",
-          "show": "Quiet Please 2/16/48",
+          "show": "Sam Spade 5/1/49",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Hall Of Fantasy(New) 3/11/50",
-          "episode": ""
-        },
-        {
-          "time": "6:00 PM",
-          "show": "Lights Out",
+          "show": "Hopalong Cassidy 2/12/50",
           "episode": ""
         },
         {
           "time": "6:30 PM",
-          "show": "Bathysphere 6/29/43",
+          "show": "Hopalong Cassidy 9/30/50",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "Quiet Please..Ghost 10/24/48",
+          "show": "Great Gildersleeve 11/5/44",
           "episode": ""
         },
         {
           "time": "7:30 PM",
-          "show": "Mysterious Traveler 11/6/51",
+          "show": "Red Skelton Show 3/26/50",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "Strange Dr. Weird 1945",
-          "episode": ""
-        },
-        {
-          "time": "8:00 PM",
-          "show": "Harry Houdini's",
+          "show": "Rocky Jordan's 78th",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "Final Séance 10/31/36",
+          "show": "Ace High Straight 12/12/48",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "Inner Sanctum 12/4/50",
+          "show": "Escapade With Paula 1/9/49",
           "episode": ""
         },
         {
           "time": "9:30 PM",
-          "show": "Suspense 2/1/59",
+          "show": "Broadway's My Beat 12/1/50",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Dark Fantasy 1/23/42",
+          "show": "Police Headquarters 1932",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Two From Weird Circle",
+          "show": "[THEME] June Havoc Birthday \"The Black Angel (Eve)\"",
+          "episode": ""
+        },
+        {
+          "time": "10:00 PM",
+          "show": "A Suspense Hour 1/24/48",
+          "episode": ""
+        },
+        {
+          "time": "10:30 PM",
+          "show": "Family Theatre 1/10/51",
           "episode": ""
         },
         {
           "time": "11:00 PM",
-          "show": "The Werewolf 5/7/44",
-          "episode": ""
-        },
-        {
-          "time": "11:30 PM",
-          "show": "Jekyll & Hyde 4/29/45",
+          "show": "Lum and Abner 1/18/43",
           "episode": ""
         }
       ]
@@ -857,152 +832,137 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "Susp - Ghost Hunt 6/23/49",
+          "show": "Sam Spade 7/10/49",
           "episode": ""
         },
         {
           "time": "12:30 AM",
-          "show": "Inner Sanctum's",
+          "show": "Philip Marlowe 6/21/50",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "The Wailing Wall 11/6/45",
+          "show": "Richard Diamond 3/14/52",
           "episode": ""
         },
         {
           "time": "1:30 AM",
-          "show": "Weird Circle (New) 5/13/45",
+          "show": "Boston Blackie 5/28/47",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Sealed Book (New) 1/12/45",
-          "episode": ""
-        },
-        {
-          "time": "2:00 AM",
-          "show": "Hall Of Fantasy (N) 1/26/53",
+          "show": "The Life Of Riley 11/5/44",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "Inner Sanctum (New) 9/6/48",
+          "show": "Burns & Allen Show 11/24/42",
           "episode": ""
         },
         {
           "time": "3:00 AM",
-          "show": "Hall Of Fantasy (N) 2/2/52",
+          "show": "Harris & Faye Show 11/27/50",
           "episode": ""
         },
         {
           "time": "3:30 AM",
-          "show": "Lights Out (5/11/43) -",
+          "show": "Our Miss Brooks 8/21/49",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Murder In The Script Dept.",
-          "episode": ""
-        },
-        {
-          "time": "4:00 AM",
-          "show": "\"Pit & The Pendulum\"",
+          "show": "Dark Fantasy 3/6/42",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "on Suspense 11/19/57",
+          "show": "X-Minus One 7/14/55",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "Haunting Hour (New) 5/13/46",
+          "show": "Academy Award Thtr 10/9/46",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "Fred Allen w Karloff 11/18/45",
+          "show": "Dennis Day Show From March 24th, 1948",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "The Aldrich Family 10/31/40",
-          "episode": ""
-        },
-        {
-          "time": "6:00 AM",
-          "show": "Halloween Humor",
+          "show": "Command Performance",
           "episode": ""
         },
         {
           "time": "6:30 AM",
-          "show": "Ozzie & Harriet 10/31/48",
+          "show": "Kay Kyser…4/1/42",
           "episode": ""
         },
         {
           "time": "7:00 AM",
-          "show": "Archie Andrews 10/30/48",
+          "show": "Fibber McGee/Molly 2/11/47",
           "episode": ""
         },
         {
           "time": "7:30 AM",
-          "show": "Great Gildersleeve 10/31/51",
+          "show": "Green Hornet 11/11/46",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "Father Knows Best 10/29/53",
+          "show": "Green Hornet 9/19/42",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "A. Moorehead Suspense",
+          "show": "Shirley Mitchell's B-Day",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "Evil of Adelaide... 9/10/51",
+          "show": "CBS Radio Work 6/16/57",
           "episode": ""
         },
         {
           "time": "9:00 AM",
-          "show": "...Saphronia Winters 4/27/43",
+          "show": "Let George Do It 9/18/50",
           "episode": ""
         },
         {
           "time": "9:30 AM",
-          "show": "Sorry Wrong N...10/20/57",
+          "show": "Leila on Great Gildy 5/12/46",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Susp-Fugue C-Minor 6/1/44",
+          "show": "Alice on Fibber Mc 6/20/44",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Edgar A. Poe - The Weird",
+          "show": "[THEME] Burt Lancaster Birthday",
+          "episode": ""
+        },
+        {
+          "time": "10:00 AM",
+          "show": "Scrn - Criss Cross 10/10/49",
           "episode": ""
         },
         {
           "time": "10:30 AM",
-          "show": "Circle \"Ligeia\" 11/12/44",
+          "show": "Suspense Big Shot 9/9/48",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "\"The Oblong Box\" 2/18/45",
+          "show": "Bob Hope Show 11/13/53",
           "episode": ""
         },
         {
           "time": "11:30 AM",
-          "show": "Inner Sanctum 4/15/44",
-          "episode": ""
-        },
-        {
-          "time": "12:00 PM",
-          "show": "2 Strange Dr. Weird 1945",
+          "show": "Fibber McGee/Molly 10/16/45",
           "episode": ""
         },
         {
@@ -1012,137 +972,122 @@
         },
         {
           "time": "12:00 PM",
-          "show": "Fibber McGee/Molly 11/22/38",
+          "show": "Harris & Faye Show 3/23/52",
           "episode": ""
         },
         {
           "time": "12:30 PM",
-          "show": "Superman 11/17/47 Pt 17",
+          "show": "Superman 11/18/47 Pt 18",
           "episode": ""
         },
         {
           "time": "1:00 PM",
-          "show": "Escape...Sorceries 2/15/48",
+          "show": "Mysterious Traveler 9/8/46",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "Columbia Wrkshp Slim 3/2/46",
+          "show": "The Green Hornet 6/20/39",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "Suspense (12/5/46) -",
+          "show": "Gunsmoke 12/27/52",
           "episode": ""
         },
         {
           "time": "2:30 PM",
-          "show": "House In Cypress Canyon",
+          "show": "Gunsmoke 4/9/55",
           "episode": ""
         },
         {
           "time": "3:00 PM",
-          "show": "Mercury-Hitchhiker 6/21/46",
+          "show": "Fort Laramie 5/27/56",
           "episode": ""
         },
         {
           "time": "3:30 PM",
-          "show": "Dark Fantasy 3/20/42",
+          "show": "Escape \"Elementals\" From Oct. 11th, 1953",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Lights Out What..Devil 10/6/42",
-          "episode": ""
-        },
-        {
-          "time": "4:00 PM",
-          "show": "Lights...Poltergeist 10/20/42",
+          "show": "The Aldrich Family 11/16/45",
           "episode": ""
         },
         {
           "time": "4:30 PM",
-          "show": "Dark Fantasy 4/3/42",
+          "show": "Fibber McGee & Molly 2/24/48",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "The Life Of Riley 10/29/44",
+          "show": "2000 Plus 10/10/51",
           "episode": ""
         },
         {
           "time": "5:30 PM",
-          "show": "My Favorite Husband From Oct. 28th, 1949",
+          "show": "X Minus One 4/24/56",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Halloween Humor",
-          "episode": ""
-        },
-        {
-          "time": "6:30 PM",
-          "show": "Charlie McCarthy 10/28/45",
+          "show": "Lux Radio Theatre's Here Comes Mr Jordan from Jan. 26th, 1942",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "Father Knows Best 10/26/50",
+          "show": "FBI Peace & War 9/15/49",
           "episode": ""
         },
         {
           "time": "7:30 PM",
-          "show": "Escape H.G. Wells 10/29/47",
+          "show": "I Was Commie/FBI 1/14/53",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "Molle's Lady...Morgue 5/15/45",
-          "episode": ""
-        },
-        {
-          "time": "8:00 PM",
-          "show": "Suspense H.P. Lovecraft's",
+          "show": "Art Carney B-Day Special",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "Dunwich Horror 11/2/45",
+          "show": "The Big Story 5/19/48",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "Murder At Midnight 3/10/47",
+          "show": "Escape (Audition) 3/21/47",
           "episode": ""
         },
         {
           "time": "9:30 PM",
-          "show": "Mysterious Traveler 2/16/44",
+          "show": "Gangbusters 11/26/49",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Hermit's Cave \"The Desert\"",
+          "show": "Crime Club 5/22/47",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "2000 Plus - Insect 8/15/51",
+          "show": "Fort Laramie 10/28/56",
           "episode": ""
         },
         {
           "time": "10:30 PM",
-          "show": "Dark Fantasy 1/30/42",
+          "show": "Have Gun, Will Trav 7/19/59",
           "episode": ""
         },
         {
           "time": "11:00 PM",
-          "show": "The Witch's Tale 10/12/37",
+          "show": "Charlie McCarthy 4/18/43",
           "episode": ""
         },
         {
           "time": "11:30 PM",
-          "show": "The Hermit's Cave (1940s) \"House Of Purple Shadows\"",
+          "show": "Jack Benny Program (1/7/40) With Barbara Stanwyck",
           "episode": ""
         }
       ]
@@ -1153,127 +1098,142 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "Inner Sanctum Mysteries",
-          "episode": ""
-        },
-        {
-          "time": "12:00 AM",
-          "show": "Escape \"Yeti\" 9/13/53",
+          "show": "Broadway's My Beat From June 2nd, 1952",
           "episode": ""
         },
         {
           "time": "12:30 AM",
-          "show": "The Undead 12/18/45",
+          "show": "Dragnet Big Walk 11/16/52",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "The Sealed Book 5/6/45",
+          "show": "The Life Of Riley 3/20/48",
           "episode": ""
         },
         {
           "time": "1:30 AM",
-          "show": "Abbott & Costello 5/8/47",
+          "show": "Burns & Allen Show 1/27/41",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Great Gildersleeve 4/20/49",
-          "episode": ""
-        },
-        {
-          "time": "2:00 AM",
-          "show": "Imagination Theatre",
+          "show": "Night Beat (2/27/50) -",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "The Curse Of The Mummy Lawrence Albert 10/25 2009",
+          "show": "\"Girl In The Park\"",
           "episode": ""
         },
         {
           "time": "3:00 AM",
-          "show": "Quiet, Please 10/17/48",
+          "show": "The Whistler 8/6/47",
           "episode": ""
         },
         {
           "time": "3:30 AM",
-          "show": "Quiet, Please 4/17/49",
+          "show": "The Falcon 8/21/52",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Orson Welles - \"Dracula\" Hour of Mercury Theatre",
+          "show": "Calling All Cars 8/11/37",
+          "episode": ""
+        },
+        {
+          "time": "4:00 AM",
+          "show": "Norman Lloyd In",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "On The Air 7/11/38",
+          "show": "Suspense 5/24/45",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "\"Frankenstein\" 6/7/55",
+          "show": "The Whistler 12/3/45",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "Jack Benny Trick Or Treat",
+          "show": "Molle Mystery 3/8/46",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "Imagination Theatre They Dwell In Dark Places (2005) J.P. Lowrie L. Albert",
+          "show": "Dimension X 9/8/49",
           "episode": ""
         },
         {
-          "time": "6:30 AM",
-          "show": "The Signal Man 12/18 2005 Shadow/Stacks 10/29 2006",
+          "time": "6:00 AM",
+          "show": "Two From Dr. Christian for Series 89th Anniv.",
+          "episode": ""
+        },
+        {
+          "time": "7:00 AM",
+          "show": "11/7/37 & 12/20/38",
+          "episode": ""
+        },
+        {
+          "time": "7:30 AM",
+          "show": "Dr. Kildare 8/17/50",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "Imagination Theatre",
+          "show": "Suspense O. Welles 5/4/44",
+          "episode": ""
+        },
+        {
+          "time": "8:00 AM",
+          "show": "Escape (Western)",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "The Heart Of Frankenstein with Lauren Tewes 9/16 2007",
+          "show": "\"Wild Jack Rhett\" 12/17/50",
           "episode": ""
         },
         {
           "time": "9:00 AM",
-          "show": "Fibber McGee/Molly 10/24/39",
+          "show": "Texas Rangers 12/10/50",
           "episode": ""
         },
         {
           "time": "9:30 AM",
-          "show": "Fibber McGee/Molly 10/30/53",
+          "show": "Red Skelton Show 5/11/47",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Escape 8/9/53",
+          "show": "Baby Snooks Show 2/8/40",
+          "episode": ""
+        },
+        {
+          "time": "10:00 AM",
+          "show": "Norman MacDonnell B-Day",
           "episode": ""
         },
         {
           "time": "10:30 AM",
-          "show": "\"Three Skeleton Key!\"",
+          "show": "Gunsmoke 11/14/53",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "Inner Sanctum 10/18/48",
+          "show": "Philip Marlowe 11/28/48",
           "episode": ""
         },
         {
           "time": "11:30 AM",
-          "show": "Lights Out 9/7/43",
+          "show": "Honest Harold 11/8/50",
           "episode": ""
         },
         {
           "time": "12:00 PM",
-          "show": "Molle Mystery 6/5/45",
+          "show": "Red Skelton Show 11/25/47",
           "episode": ""
         },
         {
@@ -1283,142 +1243,132 @@
         },
         {
           "time": "12:00 PM",
-          "show": "The Weird Circle 2/4/45",
+          "show": "Escape Red Mark 2/21/50",
           "episode": ""
         },
         {
           "time": "12:30 PM",
-          "show": "Chandu Magician 12/6/48",
+          "show": "Chandu Magician 12/7/48",
           "episode": ""
         },
         {
           "time": "1:00 PM",
-          "show": "The Clock 12/11/47",
+          "show": "Let George Do It 10/9/50",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "Dark Fantasy 5/29/42",
+          "show": "The Whistler 11/15/42",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "Harry Houdini's",
+          "show": "Rocky Jordan's 78th",
           "episode": ""
         },
         {
           "time": "2:30 PM",
-          "show": "Final Séance 10/31/36",
+          "show": "Ace High Straight 12/12/48",
           "episode": ""
         },
         {
           "time": "3:00 PM",
-          "show": "Inner Sanctum 12/4/50",
+          "show": "Escapade With Paula 1/9/49",
           "episode": ""
         },
         {
           "time": "3:30 PM",
-          "show": "Suspense 2/1/59",
+          "show": "Broadway's My Beat 12/1/50",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Dark Fantasy 1/23/42",
+          "show": "Police Headquarters 1932",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Halloween Humor",
+          "show": "Night Watch 10/14/54",
           "episode": ""
         },
         {
           "time": "4:30 PM",
-          "show": "Jack Carson 10/30/46",
+          "show": "Dragnet Big Cat 6/15/54",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "Our Miss Brooks 10/30/49",
+          "show": "X Minus One (New) 6/26/56",
           "episode": ""
         },
         {
           "time": "5:30 PM",
-          "show": "Lights Out 10/13/42",
+          "show": "Beyond Tomorrow's",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Lights Out 2/23/43",
+          "show": "\"Outer Limit\" 4/13/50",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Inner Sanctum Mysteries",
+          "show": "The Great Gildersleeve",
           "episode": ""
         },
         {
           "time": "6:30 PM",
-          "show": "Terror By Night 9/18/45",
+          "show": "War Bond Drive 9/12/43",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "The Hermit's Cave 1940s",
+          "show": "Our Miss Brooks 3/11/51",
           "episode": ""
         },
         {
           "time": "7:30 PM",
-          "show": "Witch's- Frankenstein 8/3/31",
+          "show": "Dennis Day Show 4/18/46",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "The Hermit's Cave 1940s",
+          "show": "Couple Next Door 12/5/58",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "Murder At Midnite 6/21/46",
+          "show": "Roy Roger's B-Day Spcl",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "\"Terror Out Of Space\"",
+          "show": "on G.I. Journal 10/20/44",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "Dark Fantasy 12/19/41",
+          "show": "on Bob Hope Show 6/10/52",
           "episode": ""
         },
         {
           "time": "9:30 PM",
-          "show": "The Clock 11/27/47",
+          "show": "Roy Rogers Show 11/9/51",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Haunting Hour (New) 12/10/45",
+          "show": "Blair Of The Mounties 1930s",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "The Weird Circle (1/30/44)",
+          "show": "[THEME] Joel McCrea's Birthday Three Tales Of The Texas Rangers - Clean Up, Death By Adoption & Death Plant",
           "episode": ""
         },
         {
-          "time": "10:30 PM",
-          "show": "\"The Tell-Tale Heart\"",
-          "episode": ""
-        },
-        {
-          "time": "11:00 PM",
-          "show": "Lights/Death Robbery 7/16/47",
-          "episode": ""
-        },
-        {
-          "time": "11:30 PM",
-          "show": "Hall Of Fantasy(E. Poe)1/1/53",
+          "time": "10:00 PM",
+          "show": "Gunsmoke Letter/Law 7/15/56",
           "episode": ""
         }
       ]
@@ -1429,152 +1379,127 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "Halloween Humor",
-          "episode": ""
-        },
-        {
-          "time": "12:00 AM",
-          "show": "Thing..Fourble Board 8/9/48",
+          "show": "Command Performance",
           "episode": ""
         },
         {
           "time": "12:30 AM",
-          "show": "Ozzie & Harriet 10/31/48",
+          "show": "Kay Kyser…4/1/42",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "Archie Andrews 10/30/48",
+          "show": "Fibber McGee/Molly 2/11/47",
           "episode": ""
         },
         {
           "time": "1:30 AM",
-          "show": "Great Gildersleeve 10/31/51",
+          "show": "Green Hornet 11/11/46",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Father Knows Best 10/29/53",
+          "show": "Green Hornet 9/19/42",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Suspense (12/5/46) -",
+          "show": "Gunsmoke 12/27/52",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "House In Cypress Canyon",
+          "show": "Gunsmoke 4/9/55",
           "episode": ""
         },
         {
           "time": "3:00 AM",
-          "show": "Mercury-Hitchhiker 6/21/46",
+          "show": "Fort Laramie 5/27/56",
           "episode": ""
         },
         {
           "time": "3:30 AM",
-          "show": "Dark Fantasy 3/20/42",
+          "show": "Escape \"Elementals\" From Oct. 11th, 1953",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Lights Out What..Devil 10/6/42",
-          "episode": ""
-        },
-        {
-          "time": "4:00 AM",
-          "show": "Lights Out",
+          "show": "Hopalong Cassidy 2/12/50",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "Bathysphere 6/29/43",
+          "show": "Hopalong Cassidy 9/30/50",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "Quiet Please..Ghost 10/24/48",
+          "show": "Great Gildersleeve 11/5/44",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "Mysterious Traveler 11/6/51",
+          "show": "Red Skelton Show 3/26/50",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "Strange Dr. Weird 1945",
-          "episode": ""
-        },
-        {
-          "time": "6:00 AM",
-          "show": "Lights Out 11/17/42",
+          "show": "Jack Benny Program (Hour) Buck Benny Rides Again",
           "episode": ""
         },
         {
           "time": "6:30 AM",
-          "show": "Suspense's (7/29/48)",
+          "show": "11/15/36 and 11/22/36",
           "episode": ""
         },
         {
           "time": "7:00 AM",
-          "show": "\"Yellow Wallpaper\"",
+          "show": "Boston Blackie 4/30/46",
           "episode": ""
         },
         {
           "time": "7:30 AM",
-          "show": "Quiet Please 2/16/48",
+          "show": "Sam Spade 5/1/49",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "Hall Of Fantasy(New) 3/11/50",
-          "episode": ""
-        },
-        {
-          "time": "8:00 AM",
-          "show": "Lights...Poltergeist 10/20/42",
+          "show": "The Aldrich Family 11/16/45",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "Dark Fantasy 4/3/42",
+          "show": "Fibber McGee & Molly 2/24/48",
           "episode": ""
         },
         {
           "time": "9:00 AM",
-          "show": "The Life Of Riley 10/29/44",
+          "show": "2000 Plus 10/10/51",
           "episode": ""
         },
         {
           "time": "9:30 AM",
-          "show": "My Favorite Husband From Oct. 28th, 1949",
+          "show": "X Minus One 4/24/56",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Hall Of Fantasy (N) 1/26/53",
+          "show": "The Life Of Riley 11/5/44",
           "episode": ""
         },
         {
           "time": "10:30 AM",
-          "show": "Inner Sanctum (New) 9/6/48",
+          "show": "Burns & Allen Show 11/24/42",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "Hall Of Fantasy (N) 2/2/52",
+          "show": "Harris & Faye Show 11/27/50",
           "episode": ""
         },
         {
           "time": "11:30 AM",
-          "show": "Lights Out (5/11/43) -",
-          "episode": ""
-        },
-        {
-          "time": "12:00 PM",
-          "show": "Murder In The Script Dept.",
+          "show": "Our Miss Brooks 8/21/49",
           "episode": ""
         },
         {
@@ -1584,132 +1509,122 @@
         },
         {
           "time": "12:00 PM",
-          "show": "Suspense 9/15/49",
+          "show": "Gunsmoke 11/25/56",
           "episode": ""
         },
         {
           "time": "12:30 PM",
-          "show": "Johnny Dollar 10/12/56 Pt 5",
+          "show": "Johnny Dollar 12/15/57",
           "episode": ""
         },
         {
           "time": "1:00 PM",
-          "show": "Quiet Please 10/31/48",
+          "show": "The Weird Circle 11/19/44",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "Leinengen Vs Ants 8/4/49",
+          "show": "Night Beat 8/7/52",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "Susp - Ghost Hunt 6/23/49",
+          "show": "Sam Spade 7/10/49",
           "episode": ""
         },
         {
           "time": "2:30 PM",
-          "show": "Inner Sanctum's",
+          "show": "Philip Marlowe 6/21/50",
           "episode": ""
         },
         {
           "time": "3:00 PM",
-          "show": "The Wailing Wall 11/6/45",
+          "show": "Richard Diamond 3/14/52",
           "episode": ""
         },
         {
           "time": "3:30 PM",
-          "show": "Weird Circle (New) 5/13/45",
+          "show": "Boston Blackie 5/28/47",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Sealed Book (New) 1/12/45",
-          "episode": ""
-        },
-        {
-          "time": "4:00 PM",
-          "show": "\"Pit & The Pendulum\"",
+          "show": "Dark Fantasy 3/6/42",
           "episode": ""
         },
         {
           "time": "4:30 PM",
-          "show": "on Suspense 11/19/57",
+          "show": "X-Minus One 7/14/55",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "Haunting Hour (New) 5/13/46",
+          "show": "Academy Award Thtr 10/9/46",
           "episode": ""
         },
         {
           "time": "5:30 PM",
-          "show": "Fred Allen w Karloff 11/18/45",
+          "show": "Dennis Day Show From March 24th, 1948",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "The Aldrich Family 10/31/40",
+          "show": "[THEME] June Havoc Birthday \"The Black Angel (Eve)\"",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Two From Weird Circle",
+          "show": "A Suspense Hour 1/24/48",
+          "episode": ""
+        },
+        {
+          "time": "6:30 PM",
+          "show": "Family Theatre 1/10/51",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "The Werewolf 5/7/44",
-          "episode": ""
-        },
-        {
-          "time": "7:30 PM",
-          "show": "Jekyll & Hyde 4/29/45",
+          "show": "Lum and Abner 1/18/43",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "Dark Fantasy 2/13/42",
+          "show": "[THEME] Frank Readick Birthday",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "\"Donovan's Brain\" Suspense Orson Welles from May 18th, 1944",
+          "show": "Mysterious Traveler 3/29/49",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "Lights Out-Cat Wife 4/6/38",
-          "episode": ""
-        },
-        {
-          "time": "8:30 PM",
-          "show": "Escape (E.A. Poe) 10/22/47",
+          "show": "Murder At Midnight 11/4/46",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "Lights Out-Execution 4/27/43",
+          "show": "Gangbusters 11/27/48",
+          "episode": ""
+        },
+        {
+          "time": "9:30 PM",
+          "show": "Broadway's My Beat 11/3/50",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Lights Out Hour",
+          "show": "[THEME] Yours Truly, Johnny Dollar Marathon Aug 1956",
+          "episode": ""
+        },
+        {
+          "time": "10:00 PM",
+          "show": "The Crystal Lake Matter with Bob Bailey",
           "episode": ""
         },
         {
           "time": "10:30 PM",
-          "show": "Knock At The Door 12/15/42",
-          "episode": ""
-        },
-        {
-          "time": "11:00 PM",
-          "show": "Murder Castle 8/3/43",
-          "episode": ""
-        },
-        {
-          "time": "11:30 PM",
-          "show": "\"The Shadow People\" 9/21/53",
+          "show": "Let George Do It 7/3/50",
           "episode": ""
         }
       ]
@@ -1720,97 +1635,92 @@
       "slots": [
         {
           "time": "12:00 AM",
-          "show": "Halloween Humor",
+          "show": "Lux Radio Theatre's Here Comes Mr Jordan from Jan. 26th, 1942",
           "episode": ""
         },
         {
-          "time": "12:30 AM",
-          "show": "Charlie McCarthy 10/28/45",
+          "time": "12:00 AM",
+          "show": "Suspense O. Welles 5/4/44",
           "episode": ""
         },
         {
           "time": "1:00 AM",
-          "show": "Father Knows Best 10/26/50",
+          "show": "FBI Peace & War 9/15/49",
           "episode": ""
         },
         {
           "time": "1:30 AM",
-          "show": "Escape H.G. Wells 10/29/47",
+          "show": "I Was Commie/FBI 1/14/53",
           "episode": ""
         },
         {
           "time": "2:00 AM",
-          "show": "Molle's Lady...Morgue 5/15/45",
-          "episode": ""
-        },
-        {
-          "time": "2:00 AM",
-          "show": "2000 Plus - Insect 8/15/51",
+          "show": "Fort Laramie 10/28/56",
           "episode": ""
         },
         {
           "time": "2:30 AM",
-          "show": "Dark Fantasy 1/30/42",
+          "show": "Have Gun, Will Trav 7/19/59",
           "episode": ""
         },
         {
           "time": "3:00 AM",
-          "show": "The Witch's Tale 10/12/37",
+          "show": "Charlie McCarthy 4/18/43",
           "episode": ""
         },
         {
           "time": "3:30 AM",
-          "show": "The Hermit's Cave (1940s) \"House Of Purple Shadows\"",
+          "show": "Jack Benny Program (1/7/40) With Barbara Stanwyck",
           "episode": ""
         },
         {
           "time": "4:00 AM",
-          "show": "Edgar A. Poe - The Weird",
+          "show": "[THEME] Burt Lancaster Birthday",
+          "episode": ""
+        },
+        {
+          "time": "4:00 AM",
+          "show": "Scrn - Criss Cross 10/10/49",
           "episode": ""
         },
         {
           "time": "4:30 AM",
-          "show": "Circle \"Ligeia\" 11/12/44",
+          "show": "Suspense Big Shot 9/9/48",
           "episode": ""
         },
         {
           "time": "5:00 AM",
-          "show": "\"The Oblong Box\" 2/18/45",
+          "show": "Bob Hope Show 11/13/53",
           "episode": ""
         },
         {
           "time": "5:30 AM",
-          "show": "Inner Sanctum 4/15/44",
+          "show": "Fibber McGee/Molly 10/16/45",
           "episode": ""
         },
         {
           "time": "6:00 AM",
-          "show": "2 Strange Dr. Weird 1945",
-          "episode": ""
-        },
-        {
-          "time": "6:00 AM",
-          "show": "Suspense H.P. Lovecraft's",
+          "show": "Art Carney B-Day Special",
           "episode": ""
         },
         {
           "time": "6:30 AM",
-          "show": "Dunwich Horror 11/2/45",
+          "show": "The Big Story 5/19/48",
           "episode": ""
         },
         {
           "time": "7:00 AM",
-          "show": "Murder At Midnight 3/10/47",
+          "show": "Escape (Audition) 3/21/47",
           "episode": ""
         },
         {
           "time": "7:30 AM",
-          "show": "Mysterious Traveler 2/16/44",
+          "show": "Gangbusters 11/26/49",
           "episode": ""
         },
         {
           "time": "8:00 AM",
-          "show": "Hermit's Cave \"The Desert\"",
+          "show": "Crime Club 5/22/47",
           "episode": ""
         },
         {
@@ -1820,177 +1730,167 @@
         },
         {
           "time": "8:00 AM",
-          "show": "Burns & Allen 5/5/49",
+          "show": "Our Miss Brooks 6/23/48",
           "episode": ""
         },
         {
           "time": "8:30 AM",
-          "show": "Duffy's Tavern 11/30/51 Pt 1",
+          "show": "Fibber McGee 10/29/40 Pt 1",
           "episode": ""
         },
         {
           "time": "9:00 AM",
-          "show": "Escape...Sorceries 2/15/48",
+          "show": "Mysterious Traveler 9/8/46",
           "episode": ""
         },
         {
           "time": "9:30 AM",
-          "show": "Columbia Wrkshp Slim 3/2/46",
+          "show": "The Green Hornet 6/20/39",
           "episode": ""
         },
         {
           "time": "10:00 AM",
-          "show": "Murder At Midnite 6/21/46",
+          "show": "Roy Roger's B-Day Spcl",
           "episode": ""
         },
         {
           "time": "10:30 AM",
-          "show": "\"Terror Out Of Space\"",
+          "show": "on G.I. Journal 10/20/44",
           "episode": ""
         },
         {
           "time": "11:00 AM",
-          "show": "Dark Fantasy 12/19/41",
+          "show": "on Bob Hope Show 6/10/52",
           "episode": ""
         },
         {
           "time": "11:30 AM",
-          "show": "The Clock 11/27/47",
+          "show": "Roy Rogers Show 11/9/51",
           "episode": ""
         },
         {
           "time": "12:00 PM",
-          "show": "Haunting Hour (New) 12/10/45",
+          "show": "Blair Of The Mounties 1930s",
           "episode": ""
         },
         {
           "time": "12:00 PM",
-          "show": "Harry Houdini's",
+          "show": "Rocky Jordan's 78th",
           "episode": ""
         },
         {
           "time": "12:30 PM",
-          "show": "Final Séance 10/31/36",
+          "show": "Ace High Straight 12/12/48",
           "episode": ""
         },
         {
           "time": "1:00 PM",
-          "show": "Inner Sanctum 12/4/50",
+          "show": "Escapade With Paula 1/9/49",
           "episode": ""
         },
         {
           "time": "1:30 PM",
-          "show": "Suspense 2/1/59",
+          "show": "Broadway's My Beat 12/1/50",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "Dark Fantasy 1/23/42",
+          "show": "Police Headquarters 1932",
           "episode": ""
         },
         {
           "time": "2:00 PM",
-          "show": "The Weird Circle (1/30/44)",
+          "show": "[THEME] Joel McCrea's Birthday Three Tales Of The Texas Rangers - Clean Up, Death By Adoption & Death Plant",
           "episode": ""
         },
         {
-          "time": "2:30 PM",
-          "show": "\"The Tell-Tale Heart\"",
-          "episode": ""
-        },
-        {
-          "time": "3:00 PM",
-          "show": "Lights/Death Robbery 7/16/47",
-          "episode": ""
-        },
-        {
-          "time": "3:30 PM",
-          "show": "Hall Of Fantasy(E. Poe)1/1/53",
+          "time": "2:00 PM",
+          "show": "Gunsmoke Letter/Law 7/15/56",
           "episode": ""
         },
         {
           "time": "4:00 PM",
-          "show": "Escape \"Yeti\" 9/13/53",
-          "episode": ""
-        },
-        {
-          "time": "4:00 PM",
-          "show": "Imagination Theatre",
+          "show": "Escape (Western)",
           "episode": ""
         },
         {
           "time": "4:30 PM",
-          "show": "The Heart Of Frankenstein with Lauren Tewes 9/16 2007",
+          "show": "\"Wild Jack Rhett\" 12/17/50",
           "episode": ""
         },
         {
           "time": "5:00 PM",
-          "show": "Fibber McGee/Molly 10/24/39",
+          "show": "Texas Rangers 12/10/50",
           "episode": ""
         },
         {
           "time": "5:30 PM",
-          "show": "Fibber McGee/Molly 10/30/53",
+          "show": "Red Skelton Show 5/11/47",
           "episode": ""
         },
         {
           "time": "6:00 PM",
-          "show": "Inner Sanctum Mysteries",
+          "show": "Baby Snooks Show 2/8/40",
+          "episode": ""
+        },
+        {
+          "time": "6:00 PM",
+          "show": "Broadway's My Beat From June 2nd, 1952",
           "episode": ""
         },
         {
           "time": "6:30 PM",
-          "show": "The Undead 12/18/45",
+          "show": "Dragnet Big Walk 11/16/52",
           "episode": ""
         },
         {
           "time": "7:00 PM",
-          "show": "The Sealed Book 5/6/45",
+          "show": "The Life Of Riley 3/20/48",
           "episode": ""
         },
         {
           "time": "7:30 PM",
-          "show": "Abbott & Costello 5/8/47",
+          "show": "Burns & Allen Show 1/27/41",
           "episode": ""
         },
         {
           "time": "8:00 PM",
-          "show": "Great Gildersleeve 4/20/49",
-          "episode": ""
-        },
-        {
-          "time": "8:00 PM",
-          "show": "A. Moorehead Suspense",
+          "show": "Shirley Mitchell's B-Day",
           "episode": ""
         },
         {
           "time": "8:30 PM",
-          "show": "Evil of Adelaide... 9/10/51",
+          "show": "CBS Radio Work 6/16/57",
           "episode": ""
         },
         {
           "time": "9:00 PM",
-          "show": "...Saphronia Winters 4/27/43",
+          "show": "Let George Do It 9/18/50",
           "episode": ""
         },
         {
           "time": "9:30 PM",
-          "show": "Sorry Wrong N...10/20/57",
+          "show": "Leila on Great Gildy 5/12/46",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Susp-Fugue C-Minor 6/1/44",
+          "show": "Alice on Fibber Mc 6/20/44",
           "episode": ""
         },
         {
           "time": "10:00 PM",
-          "show": "Imagination Theatre They Dwell In Dark Places (2005) J.P. Lowrie L. Albert",
+          "show": "Two From Dr. Christian for Series 89th Anniv.",
           "episode": ""
         },
         {
-          "time": "10:30 PM",
-          "show": "The Signal Man 12/18 2005 Shadow/Stacks 10/29 2006",
+          "time": "11:00 PM",
+          "show": "11/7/37 & 12/20/38",
+          "episode": ""
+        },
+        {
+          "time": "11:30 PM",
+          "show": "Dr. Kildare 8/17/50",
           "episode": ""
         }
       ]
